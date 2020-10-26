@@ -33,15 +33,15 @@ imglyConfig {
 
 
         // Add the serializer if you need
-        // include 'backend:serializer'
+        include 'backend:serializer'
 
         // Add asset packs if you need
-        // include 'assets:font-basic'
-        // include 'assets:frame-basic'
-        // include 'assets:filter-basic'
-        // include 'assets:overlay-basic'
-        // include 'assets:sticker-shapes'
-        // include 'assets:sticker-emoticons'
+        include 'assets:font-basic'
+        include 'assets:frame-basic'
+        include 'assets:filter-basic'
+        include 'assets:overlay-basic'
+        include 'assets:sticker-shapes'
+        include 'assets:sticker-emoticons'
     }
 }
 

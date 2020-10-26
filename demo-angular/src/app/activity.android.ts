@@ -104,20 +104,21 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
         console.log("After Set input image");
 
         // Set output video
-        settingsList.getSettingsModel(ly.img.android.pesdk.backend.model.state.SaveSettings.class).setOutputToGallery(android.os.Environment.DIRECTORY_DCIM);
+        // settingsList.getSettingsModel(ly.img.android.pesdk.backend.model.state.SaveSettings.class).setOutputToGallery(android.os.Environment.DIRECTORY_DCIM);
         console.log("After Set output image");
 
         let activity = application.android.foregroundActivity || application.android.startActivity;
-        new ly.img.android.pesdk.ui.activity.VideoEditorBuilder(activity)
-            .setSettingsList(settingsList)
-            .startActivityForResult(activity, 1);
-
+        var videoEditorBuilder = new ly.img.android.pesdk.ui.activity.VideoEditorBuilder(activity)
+        videoEditorBuilder.setSettingsList(settingsList)
+        videoEditorBuilder.startActivityForResult(activity, 1);
     }
 
     private createVesdkSettingsList() {
         console.log("Init createVesdkSettingsList");
         // Create a empty new SettingsList and apply the changes on this referance.
+
         var settingsList = new ly.img.android.pesdk.VideoEditorSettingsList();
+        console.log("After settingsList");
 
         // If you include our asset Packs and you use our UI you also need to add them to the UI,
         // otherwise they are only available for the backend
@@ -139,10 +140,10 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
             ly.img.android.pesdk.assets.overlay.basic.OverlayPackBasic.getOverlayPack()
         );
 
-        settingsList.getSettingsModel(ly.img.android.pesdk.ui.model.state.UiConfigSticker.class).setStickerLists(
-            ly.img.android.pesdk.assets.sticker.emoticons.StickerPackEmoticons.getStickerCategory(),
-            ly.img.android.pesdk.assets.sticker.shapes.StickerPackShapes.getStickerCategory()
-        );
+        // settingsList.getSettingsModel(ly.img.android.pesdk.ui.model.state.UiConfigSticker.class).setStickerLists(
+        //     ly.img.android.pesdk.assets.sticker.emoticons.StickerPackEmoticons.getStickerCategory(),
+        //     ly.img.android.pesdk.assets.sticker.shapes.StickerPackShapes.getStickerCategory()
+        // );
 
         return settingsList;
     }
