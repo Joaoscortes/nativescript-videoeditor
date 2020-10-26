@@ -1,0 +1,130 @@
+---
+Module:          
+  FullName:        AppClip
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AppClip
+      IsFramework:     true
+Items:           
+  - Name:            APActivationPayload
+    JsName:          APActivationPayload
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+    Module:          
+      FullName:        AppClip.APActivationPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'confirmAcquiredInRegion:completionHandler:'
+        JsName:          confirmAcquiredInRegionCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+        Module:          
+          FullName:        AppClip.APActivationPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            CLRegion
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            URL
+        JsName:          URL
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+        Module:          
+          FullName:        AppClip.APActivationPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URL
+          JsName:          URL
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+          Module:          
+            FullName:        AppClip.APActivationPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSURL
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            APActivationPayloadErrorCode
+    JsName:          APActivationPayloadErrorCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+    Module:          
+      FullName:        AppClip.APActivationPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - APActivationPayloadErrorCodeDisallowed: '1'
+      - APActivationPayloadErrorCodeDoesNotMatch: '2'
+    SwiftNameFields: 
+      - Disallowed:      '1'
+      - DoesNotMatch:    '2'
+  - Name:            APActivationPayloadErrorCodeDisallowed
+    JsName:          APActivationPayloadErrorCodeDisallowed
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+    Module:          
+      FullName:        AppClip.APActivationPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            APActivationPayloadErrorCodeDoesNotMatch
+    JsName:          APActivationPayloadErrorCodeDoesNotMatch
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+    Module:          
+      FullName:        AppClip.APActivationPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            APActivationPayloadErrorDomain
+    JsName:          APActivationPayloadErrorDomain
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppClip.framework/Headers/APActivationPayload.h'
+    Module:          
+      FullName:        AppClip.APActivationPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+...

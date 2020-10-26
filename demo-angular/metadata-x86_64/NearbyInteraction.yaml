@@ -1,0 +1,688 @@
+---
+Module:          
+  FullName:        NearbyInteraction
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         NearbyInteraction
+      IsFramework:     true
+Items:           
+  - Name:            NIConfiguration
+    JsName:          NIConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+    Module:          
+      FullName:        NearbyInteraction.NIConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            NIDiscoveryToken
+    JsName:          NIDiscoveryToken
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+    Module:          
+      FullName:        NearbyInteraction.NIConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            NIErrorCode
+    JsName:          NIErrorCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NIErrorCodeUnsupportedPlatform: '-5889'
+      - NIErrorCodeInvalidConfiguration: '-5888'
+      - NIErrorCodeSessionFailed: '-5887'
+      - NIErrorCodeResourceUsageTimeout: '-5886'
+      - NIErrorCodeActiveSessionsLimitExceeded: '-5885'
+      - NIErrorCodeUserDidNotAllow: '-5884'
+    SwiftNameFields: 
+      - UnsupportedPlatform: '-5889'
+      - InvalidConfiguration: '-5888'
+      - SessionFailed:   '-5887'
+      - ResourceUsageTimeout: '-5886'
+      - ActiveSessionsLimitExceeded: '-5885'
+      - UserDidNotAllow: '-5884'
+  - Name:            NIErrorCodeActiveSessionsLimitExceeded
+    JsName:          NIErrorCodeActiveSessionsLimitExceeded
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5885'
+  - Name:            NIErrorCodeInvalidConfiguration
+    JsName:          NIErrorCodeInvalidConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5888'
+  - Name:            NIErrorCodeResourceUsageTimeout
+    JsName:          NIErrorCodeResourceUsageTimeout
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5886'
+  - Name:            NIErrorCodeSessionFailed
+    JsName:          NIErrorCodeSessionFailed
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5887'
+  - Name:            NIErrorCodeUnsupportedPlatform
+    JsName:          NIErrorCodeUnsupportedPlatform
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5889'
+  - Name:            NIErrorCodeUserDidNotAllow
+    JsName:          NIErrorCodeUserDidNotAllow
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '-5884'
+  - Name:            NIErrorDomain
+    JsName:          NIErrorDomain
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIError.h'
+    Module:          
+      FullName:        NearbyInteraction.NIError
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            NINearbyObject
+    JsName:          NINearbyObject
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+    Module:          
+      FullName:        NearbyInteraction.NINearbyObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            direction
+        JsName:          direction
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+        Module:          
+          FullName:        NearbyInteraction.NINearbyObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            direction
+          JsName:          direction
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+          Module:          
+            FullName:        NearbyInteraction.NINearbyObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            
+      - Name:            discoveryToken
+        JsName:          discoveryToken
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+        Module:          
+          FullName:        NearbyInteraction.NINearbyObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            discoveryToken
+          JsName:          discoveryToken
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+          Module:          
+            FullName:        NearbyInteraction.NINearbyObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NIDiscoveryToken
+              WithProtocols:   []
+      - Name:            distance
+        JsName:          distance
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+        Module:          
+          FullName:        NearbyInteraction.NINearbyObject
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            distance
+          JsName:          distance
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+          Module:          
+            FullName:        NearbyInteraction.NINearbyObject
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            NINearbyObjectDirectionNotAvailable
+    JsName:          NINearbyObjectDirectionNotAvailable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+    Module:          
+      FullName:        NearbyInteraction.NINearbyObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            
+  - Name:            NINearbyObjectDistanceNotAvailable
+    JsName:          NINearbyObjectDistanceNotAvailable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NINearbyObject.h'
+    Module:          
+      FullName:        NearbyInteraction.NINearbyObject
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Float
+  - Name:            NINearbyObjectRemovalReason
+    JsName:          NINearbyObjectRemovalReason
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+    Module:          
+      FullName:        NearbyInteraction.NISession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - NINearbyObjectRemovalReasonTimeout: '0'
+      - NINearbyObjectRemovalReasonPeerEnded: '1'
+    SwiftNameFields: 
+      - Timeout:         '0'
+      - PeerEnded:       '1'
+  - Name:            NINearbyObjectRemovalReasonPeerEnded
+    JsName:          NINearbyObjectRemovalReasonPeerEnded
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+    Module:          
+      FullName:        NearbyInteraction.NISession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            NINearbyObjectRemovalReasonTimeout
+    JsName:          NINearbyObjectRemovalReasonTimeout
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+    Module:          
+      FullName:        NearbyInteraction.NISession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            NINearbyPeerConfiguration
+    JsName:          NINearbyPeerConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+    Module:          
+      FullName:        NearbyInteraction.NIConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithPeerToken:'
+        JsName:          initWithPeerToken
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+        Module:          
+          FullName:        NearbyInteraction.NIConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NIDiscoveryToken
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            peerDiscoveryToken
+        JsName:          peerDiscoveryToken
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+        Module:          
+          FullName:        NearbyInteraction.NIConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            peerDiscoveryToken
+          JsName:          peerDiscoveryToken
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NIConfiguration.h'
+          Module:          
+            FullName:        NearbyInteraction.NIConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NIDiscoveryToken
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NIConfiguration
+  - Name:            NISession
+    JsName:          NISession
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+    Module:          
+      FullName:        NearbyInteraction.NISession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            invalidate
+        JsName:          invalidate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            pause
+        JsName:          pause
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'runWithConfiguration:'
+        JsName:          runWithConfiguration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NIConfiguration
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            configuration
+        JsName:          configuration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            configuration
+          JsName:          configuration
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NIConfiguration
+              WithProtocols:   []
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - NISessionDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - NISessionDelegate
+      - Name:            delegateQueue
+        JsName:          delegateQueue
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegateQueue
+          JsName:          delegateQueue
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+        Setter:          
+          Name:            'setDelegateQueue:'
+          JsName:          setDelegateQueue
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+      - Name:            discoveryToken
+        JsName:          discoveryToken
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            discoveryToken
+          JsName:          discoveryToken
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NIDiscoveryToken
+              WithProtocols:   []
+    StaticProperties: 
+      - Name:            supported
+        JsName:          supported
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isSupported
+          JsName:          isSupported
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+          Module:          
+            FullName:        NearbyInteraction.NISession
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    Protocols:       []
+    Base:            NSObject
+  - Name:            NISessionDelegate
+    JsName:          NISessionDelegate
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+    Module:          
+      FullName:        NearbyInteraction.NISession
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'session:didInvalidateWithError:'
+        JsName:          sessionDidInvalidateWithError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NISession
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSError
+            WithProtocols:   []
+      - Name:            'session:didRemoveNearbyObjects:withReason:'
+        JsName:          sessionDidRemoveNearbyObjectsWithReason
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NISession
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            NINearbyObject
+                WithProtocols:   []
+            WithProtocols:   []
+          - Type:            Enum
+            Name:            NINearbyObjectRemovalReason
+      - Name:            'session:didUpdateNearbyObjects:'
+        JsName:          sessionDidUpdateNearbyObjects
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NISession
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            NINearbyObject
+                WithProtocols:   []
+            WithProtocols:   []
+      - Name:            'sessionSuspensionEnded:'
+        JsName:          sessionSuspensionEnded
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NISession
+            WithProtocols:   []
+      - Name:            'sessionWasSuspended:'
+        JsName:          sessionWasSuspended
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/NearbyInteraction.framework/Headers/NISession.h'
+        Module:          
+          FullName:        NearbyInteraction.NISession
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NISession
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSObjectProtocol
+...

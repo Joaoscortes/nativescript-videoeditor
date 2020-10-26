@@ -1,11 +1,75 @@
-/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+// Apply the Android Plugin
+apply plugin: 'com.android.application'
 
-android {
-	
+// Apply the IMGLYPlugin
+apply plugin: 'ly.img.android.sdk'
+// Apply Kotlin Plugin
+apply plugin: 'kotlin-android'
+
+// Configure the IMGLYPlugin
+imglyConfig {
+
+    // vesdk {
+    //     enabled true 
+    //     licencePath 'vesdk_android_license.dms'
+    // }
+    
+    // Define the modules you are need
+    modules {
+
+        // Add all the UI modules you are need
+        include 'ui:video-trim'
+        include 'ui:core'
+        include 'ui:text'
+        include 'ui:focus'
+        include 'ui:frame'
+        include 'ui:brush'
+        include 'ui:filter'
+        include 'ui:sticker'
+        include 'ui:overlay'
+        include 'ui:transform'
+        include 'ui:adjustment'
+        include 'ui:text-design'
+
+
+        // Add the serializer if you need
+        // include 'backend:serializer'
+
+        // Add asset packs if you need
+        // include 'assets:font-basic'
+        // include 'assets:frame-basic'
+        // include 'assets:filter-basic'
+        // include 'assets:overlay-basic'
+        // include 'assets:sticker-shapes'
+        // include 'assets:sticker-emoticons'
+    }
 }
 
-dependencies {
-    // Describe plugin native Android dependencies like
-	// implementation "groupName:pluginName:ver" 
-    // EXAMPLE: implementation "com.facebook.fresco:fresco:0.9.0+"
+// Do your Android Configurations... ex.
+android {
+    /* Set the compile SDK and the Build SDK min. at SDK 29 or grater.
+     * We can't provide support for Bugs, that are the result of older SDK versions.
+     */
+    // compileSdkVersion 29
+    // buildToolsVersion '29.0.2'
+
+    defaultConfig {
+        /*
+         * Replace with your App-ID and keep sure that it match with your license!
+         * @see http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename
+         */
+        applicationId "org.nativescript.demoangular"
+
+        /* Set the minimum supported SDK Version to 16 (Android 4.1.0) or higher */
+        minSdkVersion 16
+
+        /* Set the target SDK Version at minimum to 29 or higher */
+        targetSdkVersion 29
+    }
+
+    /* Set Java Language level to Java 1.8+ */
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }

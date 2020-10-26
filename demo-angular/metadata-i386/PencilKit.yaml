@@ -1,0 +1,2307 @@
+---
+Module:          
+  FullName:        PencilKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         PencilKit
+      IsFramework:     true
+Items:           
+  - Name:            PKAppleDrawingTypeIdentifier
+    JsName:          PKAppleDrawingTypeIdentifier
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+    Module:          
+      FullName:        PencilKit.PKDrawing
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            BridgedInterface
+      Name:            NSString
+      BridgedTo:       NSString
+  - Name:            PKCanvasView
+    JsName:          PKCanvasView
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            allowsFingerDrawing
+        JsName:          allowsFingerDrawing
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsFingerDrawing
+          JsName:          allowsFingerDrawing
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsFingerDrawing:'
+          JsName:          setAllowsFingerDrawing
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - PKCanvasViewDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - PKCanvasViewDelegate
+      - Name:            drawing
+        JsName:          drawing
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawing
+          JsName:          drawing
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKDrawing
+              WithProtocols:   []
+        Setter:          
+          Name:            'setDrawing:'
+          JsName:          setDrawing
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            PKDrawing
+              WithProtocols:   []
+      - Name:            drawingGestureRecognizer
+        JsName:          drawingGestureRecognizer
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawingGestureRecognizer
+          JsName:          drawingGestureRecognizer
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            UIGestureRecognizer
+              WithProtocols:   []
+      - Name:            drawingPolicy
+        JsName:          drawingPolicy
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            drawingPolicy
+          JsName:          drawingPolicy
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            PKCanvasViewDrawingPolicy
+        Setter:          
+          Name:            'setDrawingPolicy:'
+          JsName:          setDrawingPolicy
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            PKCanvasViewDrawingPolicy
+      - Name:            rulerActive
+        JsName:          rulerActive
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isRulerActive
+          JsName:          isRulerActive
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setRulerActive:'
+          JsName:          setRulerActive
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            tool
+        JsName:          tool
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            tool
+          JsName:          tool
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKTool
+              WithProtocols:   []
+        Setter:          
+          Name:            'setTool:'
+          JsName:          setTool
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+          Module:          
+            FullName:        PencilKit.PKCanvasView
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            PKTool
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - PKToolPickerObserver
+    Base:            UIScrollView
+  - Name:            PKCanvasViewDelegate
+    JsName:          PKCanvasViewDelegate
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'canvasViewDidBeginUsingTool:'
+        JsName:          canvasViewDidBeginUsingTool
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKCanvasView
+            WithProtocols:   []
+      - Name:            'canvasViewDidEndUsingTool:'
+        JsName:          canvasViewDidEndUsingTool
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKCanvasView
+            WithProtocols:   []
+      - Name:            'canvasViewDidFinishRendering:'
+        JsName:          canvasViewDidFinishRendering
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKCanvasView
+            WithProtocols:   []
+      - Name:            'canvasViewDrawingDidChange:'
+        JsName:          canvasViewDrawingDidChange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+        Module:          
+          FullName:        PencilKit.PKCanvasView
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKCanvasView
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSObjectProtocol
+      - UIScrollViewDelegate
+  - Name:            PKCanvasViewDrawingPolicy
+    JsName:          PKCanvasViewDrawingPolicy
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - PKCanvasViewDrawingPolicyDefault: '0'
+      - PKCanvasViewDrawingPolicyAnyInput: '1'
+      - PKCanvasViewDrawingPolicyPencilOnly: '2'
+    SwiftNameFields: 
+      - Default:         '0'
+      - AnyInput:        '1'
+      - PencilOnly:      '2'
+  - Name:            PKCanvasViewDrawingPolicyAnyInput
+    JsName:          PKCanvasViewDrawingPolicyAnyInput
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            PKCanvasViewDrawingPolicyDefault
+    JsName:          PKCanvasViewDrawingPolicyDefault
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            PKCanvasViewDrawingPolicyPencilOnly
+    JsName:          PKCanvasViewDrawingPolicyPencilOnly
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKCanvasView.h'
+    Module:          
+      FullName:        PencilKit.PKCanvasView
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            PKDrawing
+    JsName:          PKDrawing
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+    Module:          
+      FullName:        PencilKit.PKDrawing
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            dataRepresentation
+        JsName:          dataRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+      - Name:            'drawingByAppendingDrawing:'
+        JsName:          drawingByAppendingDrawing
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKDrawing
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            PKDrawing
+            WithProtocols:   []
+      - Name:            'drawingByAppendingStrokes:'
+        JsName:          drawingByAppendingStrokes
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKDrawing
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            PKStroke
+                WithProtocols:   []
+            WithProtocols:   []
+      - Name:            'drawingByApplyingTransform:'
+        JsName:          drawingByApplyingTransform
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKDrawing
+            WithProtocols:   []
+          - Type:            Struct
+            Module:          CoreGraphics.CGAffineTransform
+            Name:            CGAffineTransform
+      - Name:            'imageFromRect:scale:'
+        JsName:          imageFromRectScale
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UIImage
+            WithProtocols:   []
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            Name:            CGRect
+          - Type:            Float
+      - Name:            'initWithData:error:'
+        JsName:          initWithDataError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              Name:            NSError
+              WithProtocols:   []
+      - Name:            'initWithStrokes:'
+        JsName:          initWithStrokes
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            PKStroke
+                WithProtocols:   []
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            bounds
+        JsName:          bounds
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bounds
+          JsName:          bounds
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+          Module:          
+            FullName:        PencilKit.PKDrawing
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              Name:            CGRect
+      - Name:            strokes
+        JsName:          strokes
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+        Module:          
+          FullName:        PencilKit.PKDrawing
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            strokes
+          JsName:          strokes
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKDrawing.h'
+          Module:          
+            FullName:        PencilKit.PKDrawing
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            PKStroke
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            PKEraserTool
+    JsName:          PKEraserTool
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+    Module:          
+      FullName:        PencilKit.PKEraserTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithEraserType:'
+        JsName:          initWithEraserType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+        Module:          
+          FullName:        PencilKit.PKEraserTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Enum
+            Name:            PKEraserType
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            eraserType
+        JsName:          eraserType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+        Module:          
+          FullName:        PencilKit.PKEraserTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            eraserType
+          JsName:          eraserType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+          Module:          
+            FullName:        PencilKit.PKEraserTool
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            PKEraserType
+    StaticProperties: []
+    Protocols:       []
+    Base:            PKTool
+  - Name:            PKEraserType
+    JsName:          PKEraserType
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+    Module:          
+      FullName:        PencilKit.PKEraserTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - PKEraserTypeVector: '0'
+      - PKEraserTypeBitmap: '1'
+    SwiftNameFields: 
+      - Vector:          '0'
+      - Bitmap:          '1'
+  - Name:            PKEraserTypeBitmap
+    JsName:          PKEraserTypeBitmap
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+    Module:          
+      FullName:        PencilKit.PKEraserTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            PKEraserTypeVector
+    JsName:          PKEraserTypeVector
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKEraserTool.h'
+    Module:          
+      FullName:        PencilKit.PKEraserTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            PKFloatRange
+    JsName:          PKFloatRange
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+    Module:          
+      FullName:        PencilKit.PKFloatRange
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithLowerBound:upperBound:'
+        JsName:          initWithLowerBoundUpperBound
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+        Module:          
+          FullName:        PencilKit.PKFloatRange
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Float
+          - Type:            Float
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            lowerBound
+        JsName:          lowerBound
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+        Module:          
+          FullName:        PencilKit.PKFloatRange
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            lowerBound
+          JsName:          lowerBound
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+          Module:          
+            FullName:        PencilKit.PKFloatRange
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            upperBound
+        JsName:          upperBound
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+        Module:          
+          FullName:        PencilKit.PKFloatRange
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            upperBound
+          JsName:          upperBound
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKFloatRange.h'
+          Module:          
+            FullName:        PencilKit.PKFloatRange
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKInk
+    JsName:          PKInk
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+    Module:          
+      FullName:        PencilKit.PKInk
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithInkType:color:'
+        JsName:          initWithInkTypeColor
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+        Module:          
+          FullName:        PencilKit.PKInk
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIColor
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            color
+        JsName:          color
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+        Module:          
+          FullName:        PencilKit.PKInk
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            color
+          JsName:          color
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+          Module:          
+            FullName:        PencilKit.PKInk
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            UIColor
+              WithProtocols:   []
+      - Name:            inkType
+        JsName:          inkType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+        Module:          
+          FullName:        PencilKit.PKInk
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            inkType
+          JsName:          inkType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInk.h'
+          Module:          
+            FullName:        PencilKit.PKInk
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKInkTypeMarker
+    JsName:          PKInkTypeMarker
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkType.h'
+    Module:          
+      FullName:        PencilKit.PKInkType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            PKInkTypePen
+    JsName:          PKInkTypePen
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkType.h'
+    Module:          
+      FullName:        PencilKit.PKInkType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            PKInkTypePencil
+    JsName:          PKInkTypePencil
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkType.h'
+    Module:          
+      FullName:        PencilKit.PKInkType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            PKInkingTool
+    JsName:          PKInkingTool
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+    Module:          
+      FullName:        PencilKit.PKInkingTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithInkType:color:'
+        JsName:          initWithInkTypeColor
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIColor
+            WithProtocols:   []
+      - Name:            'initWithInkType:color:width:'
+        JsName:          initWithInkTypeColorWidth
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIColor
+            WithProtocols:   []
+          - Type:            Float
+      - Name:            'initWithInk:width:'
+        JsName:          initWithInkWidth
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            PKInk
+            WithProtocols:   []
+          - Type:            Float
+    StaticMethods:   
+      - Name:            'convertColor:fromUserInterfaceStyle:to:'
+        JsName:          convertColorFromUserInterfaceStyleTo
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UIColor
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIColor
+            WithProtocols:   []
+          - Type:            Enum
+            Name:            UIUserInterfaceStyle
+          - Type:            Enum
+            Name:            UIUserInterfaceStyle
+      - Name:            'defaultWidthForInkType:'
+        JsName:          defaultWidthForInkType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'maximumWidthForInkType:'
+        JsName:          maximumWidthForInkType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'minimumWidthForInkType:'
+        JsName:          minimumWidthForInkType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+    InstanceProperties: 
+      - Name:            color
+        JsName:          color
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            color
+          JsName:          color
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+          Module:          
+            FullName:        PencilKit.PKInkingTool
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            UIColor
+              WithProtocols:   []
+      - Name:            ink
+        JsName:          ink
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            ink
+          JsName:          ink
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+          Module:          
+            FullName:        PencilKit.PKInkingTool
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKInk
+              WithProtocols:   []
+      - Name:            inkType
+        JsName:          inkType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            inkType
+          JsName:          inkType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+          Module:          
+            FullName:        PencilKit.PKInkingTool
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            width
+        JsName:          width
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+        Module:          
+          FullName:        PencilKit.PKInkingTool
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            width
+          JsName:          width
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKInkingTool.h'
+          Module:          
+            FullName:        PencilKit.PKInkingTool
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+    StaticProperties: []
+    Protocols:       []
+    Base:            PKTool
+  - Name:            PKLassoTool
+    JsName:          PKLassoTool
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKLassoTool.h'
+    Module:          
+      FullName:        PencilKit.PKLassoTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       []
+    Base:            PKTool
+  - Name:            PKStroke
+    JsName:          PKStroke
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+    Module:          
+      FullName:        PencilKit.PKStroke
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithInk:strokePath:transform:mask:'
+        JsName:          initWithInkStrokePathTransformMask
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            PKInk
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            PKStrokePath
+            WithProtocols:   []
+          - Type:            Struct
+            Module:          CoreGraphics.CGAffineTransform
+            Name:            CGAffineTransform
+          - Type:            Interface
+            Name:            UIBezierPath
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            ink
+        JsName:          ink
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            ink
+          JsName:          ink
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKInk
+              WithProtocols:   []
+      - Name:            mask
+        JsName:          mask
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mask
+          JsName:          mask
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            UIBezierPath
+              WithProtocols:   []
+      - Name:            maskedPathRanges
+        JsName:          maskedPathRanges
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maskedPathRanges
+          JsName:          maskedPathRanges
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            PKFloatRange
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            path
+        JsName:          path
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            path
+          JsName:          path
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKStrokePath
+              WithProtocols:   []
+      - Name:            renderBounds
+        JsName:          renderBounds
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            renderBounds
+          JsName:          renderBounds
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              Name:            CGRect
+      - Name:            transform
+        JsName:          transform
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+        Module:          
+          FullName:        PencilKit.PKStroke
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transform
+          JsName:          transform
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStroke.h'
+          Module:          
+            FullName:        PencilKit.PKStroke
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGAffineTransform
+              Name:            CGAffineTransform
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKStrokePath
+    JsName:          PKStrokePath
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+    Module:          
+      FullName:        PencilKit.PKStrokePath
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'enumerateInterpolatedPointsInRange:strideByDistance:usingBlock:'
+        JsName:          enumerateInterpolatedPointsInRangeStrideByDistanceUsingBlock
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKFloatRange
+            WithProtocols:   []
+          - Type:            Float
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            PKStrokePoint
+                WithProtocols:   []
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateInterpolatedPointsInRange:strideByParametricStep:usingBlock:'
+        JsName:          enumerateInterpolatedPointsInRangeStrideByParametricStepUsingBlock
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKFloatRange
+            WithProtocols:   []
+          - Type:            Float
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            PKStrokePoint
+                WithProtocols:   []
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'enumerateInterpolatedPointsInRange:strideByTime:usingBlock:'
+        JsName:          enumerateInterpolatedPointsInRangeStrideByTimeUsingBlock
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKFloatRange
+            WithProtocols:   []
+          - Type:            Double
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            PKStrokePoint
+                WithProtocols:   []
+              - Type:            Pointer
+                PointerType:     
+                  Type:            Bool
+      - Name:            'initWithControlPoints:creationDate:'
+        JsName:          initWithControlPointsCreationDate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            PKStrokePoint
+                WithProtocols:   []
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSDate
+            WithProtocols:   []
+      - Name:            'interpolatedLocationAt:'
+        JsName:          interpolatedLocationAt
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            Name:            CGPoint
+          - Type:            Float
+      - Name:            'interpolatedPointAt:'
+        JsName:          interpolatedPointAt
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKStrokePoint
+            WithProtocols:   []
+          - Type:            Float
+      - Name:            'objectAtIndexedSubscript:'
+        JsName:          objectAtIndexedSubscript
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKStrokePoint
+            WithProtocols:   []
+          - Type:            UInt
+      - Name:            'parametricValue:offsetByDistance:'
+        JsName:          parametricValueOffsetByDistance
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+          - Type:            Float
+          - Type:            Float
+      - Name:            'parametricValue:offsetByTime:'
+        JsName:          parametricValueOffsetByTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Float
+          - Type:            Float
+          - Type:            Double
+      - Name:            'pointAtIndex:'
+        JsName:          pointAtIndex
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKStrokePoint
+            WithProtocols:   []
+          - Type:            UInt
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            count
+        JsName:          count
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            count
+          JsName:          count
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePath
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+      - Name:            creationDate
+        JsName:          creationDate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePath
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            creationDate
+          JsName:          creationDate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePath.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePath
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKStrokePoint
+    JsName:          PKStrokePoint
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+    Module:          
+      FullName:        PencilKit.PKStrokePoint
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithLocation:timeOffset:size:opacity:force:azimuth:altitude:'
+        JsName:          initWithLocationTimeOffsetSizeOpacityForceAzimuthAltitude
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            Name:            CGPoint
+          - Type:            Double
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            Name:            CGSize
+          - Type:            Float
+          - Type:            Float
+          - Type:            Float
+          - Type:            Float
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            altitude
+        JsName:          altitude
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            altitude
+          JsName:          altitude
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            azimuth
+        JsName:          azimuth
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            azimuth
+          JsName:          azimuth
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            force
+        JsName:          force
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            force
+          JsName:          force
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            location
+        JsName:          location
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            location
+          JsName:          location
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              Name:            CGPoint
+      - Name:            opacity
+        JsName:          opacity
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            opacity
+          JsName:          opacity
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Float
+      - Name:            size
+        JsName:          size
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            size
+          JsName:          size
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Struct
+              Module:          CoreGraphics.CGGeometry
+              Name:            CGSize
+      - Name:            timeOffset
+        JsName:          timeOffset
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+        Module:          
+          FullName:        PencilKit.PKStrokePoint
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeOffset
+          JsName:          timeOffset
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKStrokePoint.h'
+          Module:          
+            FullName:        PencilKit.PKStrokePoint
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKTool
+    JsName:          PKTool
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKTool.h'
+    Module:          
+      FullName:        PencilKit.PKTool
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            PKToolPicker
+    JsName:          PKToolPicker
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+    Module:          
+      FullName:        PencilKit.PKToolPicker
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addObserver:'
+        JsName:          addObserver
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - PKToolPickerObserver
+      - Name:            'frameObscuredInView:'
+        JsName:          frameObscuredInView
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Struct
+            Module:          CoreGraphics.CGGeometry
+            Name:            CGRect
+          - Type:            Interface
+            Name:            UIView
+            WithProtocols:   []
+      - Name:            'removeObserver:'
+        JsName:          removeObserver
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - PKToolPickerObserver
+      - Name:            'setVisible:forFirstResponder:'
+        JsName:          setVisibleForFirstResponder
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Interface
+            Name:            UIResponder
+            WithProtocols:   []
+    StaticMethods:   
+      - Name:            'sharedToolPickerForWindow:'
+        JsName:          sharedToolPickerForWindow
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            PKToolPicker
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIWindow
+            WithProtocols:   []
+    InstanceProperties: 
+      - Name:            colorUserInterfaceStyle
+        JsName:          colorUserInterfaceStyle
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            colorUserInterfaceStyle
+          JsName:          colorUserInterfaceStyle
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UIUserInterfaceStyle
+        Setter:          
+          Name:            'setColorUserInterfaceStyle:'
+          JsName:          setColorUserInterfaceStyle
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            UIUserInterfaceStyle
+      - Name:            isVisible
+        JsName:          isVisible
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isVisible
+          JsName:          isVisible
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            overrideUserInterfaceStyle
+        JsName:          overrideUserInterfaceStyle
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            overrideUserInterfaceStyle
+          JsName:          overrideUserInterfaceStyle
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            UIUserInterfaceStyle
+        Setter:          
+          Name:            'setOverrideUserInterfaceStyle:'
+          JsName:          setOverrideUserInterfaceStyle
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            UIUserInterfaceStyle
+      - Name:            rulerActive
+        JsName:          rulerActive
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isRulerActive
+          JsName:          isRulerActive
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setRulerActive:'
+          JsName:          setRulerActive
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            selectedTool
+        JsName:          selectedTool
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            selectedTool
+          JsName:          selectedTool
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            PKTool
+              WithProtocols:   []
+        Setter:          
+          Name:            'setSelectedTool:'
+          JsName:          setSelectedTool
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            PKTool
+              WithProtocols:   []
+      - Name:            showsDrawingPolicyControls
+        JsName:          showsDrawingPolicyControls
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            showsDrawingPolicyControls
+          JsName:          showsDrawingPolicyControls
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setShowsDrawingPolicyControls:'
+          JsName:          setShowsDrawingPolicyControls
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            stateAutosaveName
+        JsName:          stateAutosaveName
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            stateAutosaveName
+          JsName:          stateAutosaveName
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+        Setter:          
+          Name:            'setStateAutosaveName:'
+          JsName:          setStateAutosaveName
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+          Module:          
+            FullName:        PencilKit.PKToolPicker
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            PKToolPickerObserver
+    JsName:          PKToolPickerObserver
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+    Module:          
+      FullName:        PencilKit.PKToolPicker
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'toolPickerFramesObscuredDidChange:'
+        JsName:          toolPickerFramesObscuredDidChange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKToolPicker
+            WithProtocols:   []
+      - Name:            'toolPickerIsRulerActiveDidChange:'
+        JsName:          toolPickerIsRulerActiveDidChange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKToolPicker
+            WithProtocols:   []
+      - Name:            'toolPickerSelectedToolDidChange:'
+        JsName:          toolPickerSelectedToolDidChange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKToolPicker
+            WithProtocols:   []
+      - Name:            'toolPickerVisibilityDidChange:'
+        JsName:          toolPickerVisibilityDidChange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/PencilKit.framework/Headers/PKToolPicker.h'
+        Module:          
+          FullName:        PencilKit.PKToolPicker
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            PKToolPicker
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSObjectProtocol
+...

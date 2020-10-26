@@ -3,5 +3,11 @@
 <plist version="1.0">
 <dict>
 	<!--Describe the permissions, features or other configurations required by your plugin for iOS.-->
+	<key>NSCameraUsageDescription</key>
+	<string>To Take Photos and Videos</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To Location</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To View Photos and Videos</string>
 </dict>
 </plist>

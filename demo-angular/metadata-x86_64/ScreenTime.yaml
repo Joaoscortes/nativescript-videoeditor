@@ -1,0 +1,423 @@
+---
+Module:          
+  FullName:        ScreenTime
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ScreenTime
+      IsFramework:     true
+Items:           
+  - Name:            STScreenTimeConfiguration
+    JsName:          STScreenTimeConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+    Module:          
+      FullName:        ScreenTime.STScreenTimeConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            enforcesChildRestrictions
+        JsName:          enforcesChildRestrictions
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+        Module:          
+          FullName:        ScreenTime.STScreenTimeConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            enforcesChildRestrictions
+          JsName:          enforcesChildRestrictions
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+          Module:          
+            FullName:        ScreenTime.STScreenTimeConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            STScreenTimeConfigurationObserver
+    JsName:          STScreenTimeConfigurationObserver
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+    Module:          
+      FullName:        ScreenTime.STScreenTimeConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'initWithUpdateQueue:'
+        JsName:          initWithUpdateQueue
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+        Module:          
+          FullName:        ScreenTime.STScreenTimeConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSObject
+            WithProtocols:   
+              - OS_dispatch_queue
+      - Name:            startObserving
+        JsName:          startObserving
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+        Module:          
+          FullName:        ScreenTime.STScreenTimeConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            stopObserving
+        JsName:          stopObserving
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+        Module:          
+          FullName:        ScreenTime.STScreenTimeConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            configuration
+        JsName:          configuration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+        Module:          
+          FullName:        ScreenTime.STScreenTimeConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            configuration
+          JsName:          configuration
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STScreenTimeConfiguration.h'
+          Module:          
+            FullName:        ScreenTime.STScreenTimeConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            STScreenTimeConfiguration
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            STWebHistory
+    JsName:          STWebHistory
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebHistory.h'
+    Module:          
+      FullName:        ScreenTime.STWebHistory
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            deleteAllHistory
+        JsName:          deleteAllHistory
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebHistory.h'
+        Module:          
+          FullName:        ScreenTime.STWebHistory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'deleteHistoryDuringInterval:'
+        JsName:          deleteHistoryDuringInterval
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebHistory.h'
+        Module:          
+          FullName:        ScreenTime.STWebHistory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NSDateInterval
+            WithProtocols:   []
+      - Name:            'deleteHistoryForURL:'
+        JsName:          deleteHistoryForURL
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebHistory.h'
+        Module:          
+          FullName:        ScreenTime.STWebHistory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NSURL
+            WithProtocols:   []
+      - Name:            'initWithBundleIdentifier:error:'
+        JsName:          initWithBundleIdentifierError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebHistory.h'
+        Module:          
+          FullName:        ScreenTime.STWebHistory
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              Name:            NSError
+              WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            STWebpageController
+    JsName:          STWebpageController
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+    Module:          
+      FullName:        ScreenTime.STWebpageController
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setBundleIdentifier:error:'
+        JsName:          setBundleIdentifierError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable, MethodHasErrorOutParameter ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Pointer
+            PointerType:     
+              Type:            Interface
+              Name:            NSError
+              WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            suppressUsageRecording
+        JsName:          suppressUsageRecording
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            suppressUsageRecording
+          JsName:          suppressUsageRecording
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setSuppressUsageRecording:'
+          JsName:          setSuppressUsageRecording
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            URL
+        JsName:          URL
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URL
+          JsName:          URL
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSURL
+              WithProtocols:   []
+        Setter:          
+          Name:            'setURL:'
+          JsName:          setURL
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSURL
+              WithProtocols:   []
+      - Name:            URLIsBlocked
+        JsName:          URLIsBlocked
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URLIsBlocked
+          JsName:          URLIsBlocked
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            URLIsPictureInPicture
+        JsName:          URLIsPictureInPicture
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URLIsPictureInPicture
+          JsName:          URLIsPictureInPicture
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setURLIsPictureInPicture:'
+          JsName:          setURLIsPictureInPicture
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            URLIsPlayingVideo
+        JsName:          URLIsPlayingVideo
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+        Module:          
+          FullName:        ScreenTime.STWebpageController
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            URLIsPlayingVideo
+          JsName:          URLIsPlayingVideo
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setURLIsPlayingVideo:'
+          JsName:          setURLIsPlayingVideo
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ScreenTime.framework/Headers/STWebpageController.h'
+          Module:          
+            FullName:        ScreenTime.STWebpageController
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+    StaticProperties: []
+    Protocols:       []
+    Base:            UIViewController
+...

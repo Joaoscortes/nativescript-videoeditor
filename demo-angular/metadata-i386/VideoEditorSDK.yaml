@@ -1,0 +1,40 @@
+---
+Module:          
+  FullName:        VideoEditorSDK
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         VideoEditorSDK
+      IsFramework:     true
+Items:           
+  - Name:            VideoEditorSDKVersionNumber
+    JsName:          VideoEditorSDKVersionNumber
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/Pods/VideoEditorSDK/VideoEditorSDK.framework/Headers/VideoEditorSDK.h'
+    Module:          
+      FullName:        VideoEditorSDK
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         VideoEditorSDK
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            VideoEditorSDKVersionString
+    JsName:          VideoEditorSDKVersionString
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/Pods/VideoEditorSDK/VideoEditorSDK.framework/Headers/VideoEditorSDK.h'
+    Module:          
+      FullName:        VideoEditorSDK
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         VideoEditorSDK
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

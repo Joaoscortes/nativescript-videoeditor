@@ -1,5 +1,4 @@
 import { Videoeditors } from 'nativescript-videoeditors';
-console.log(new Videoeditors().message);
 import { Component } from "@angular/core";
 
 @Component({

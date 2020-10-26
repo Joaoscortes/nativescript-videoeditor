@@ -1,0 +1,3801 @@
+---
+Module:          
+  FullName:        MetricKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         MetricKit
+      IsFramework:     true
+Items:           
+  - Name:            MXAnimationMetric
+    JsName:          MXAnimationMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAnimationMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAnimationMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            scrollHitchTimeRatio
+        JsName:          scrollHitchTimeRatio
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAnimationMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAnimationMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            scrollHitchTimeRatio
+          JsName:          scrollHitchTimeRatio
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAnimationMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAnimationMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnit
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXAppExitMetric
+    JsName:          MXAppExitMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppExitMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            backgroundExitData
+        JsName:          backgroundExitData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            backgroundExitData
+          JsName:          backgroundExitData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXBackgroundExitData
+              WithProtocols:   []
+      - Name:            foregroundExitData
+        JsName:          foregroundExitData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            foregroundExitData
+          JsName:          foregroundExitData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXForegroundExitData
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXAppLaunchMetric
+    JsName:          MXAppLaunchMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppLaunchMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppLaunchMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            histogrammedApplicationResumeTime
+        JsName:          histogrammedApplicationResumeTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppLaunchMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppLaunchMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            histogrammedApplicationResumeTime
+          JsName:          histogrammedApplicationResumeTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppLaunchMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppLaunchMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXHistogram
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            histogrammedTimeToFirstDraw
+        JsName:          histogrammedTimeToFirstDraw
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppLaunchMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppLaunchMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            histogrammedTimeToFirstDraw
+          JsName:          histogrammedTimeToFirstDraw
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppLaunchMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppLaunchMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXHistogram
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXAppResponsivenessMetric
+    JsName:          MXAppResponsivenessMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppResponsivenessMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppResponsivenessMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            histogrammedApplicationHangTime
+        JsName:          histogrammedApplicationHangTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppResponsivenessMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppResponsivenessMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            histogrammedApplicationHangTime
+          JsName:          histogrammedApplicationHangTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppResponsivenessMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppResponsivenessMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXHistogram
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXAppRunTimeMetric
+    JsName:          MXAppRunTimeMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppRunTimeMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeBackgroundAudioTime
+        JsName:          cumulativeBackgroundAudioTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppRunTimeMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBackgroundAudioTime
+          JsName:          cumulativeBackgroundAudioTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppRunTimeMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeBackgroundLocationTime
+        JsName:          cumulativeBackgroundLocationTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppRunTimeMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBackgroundLocationTime
+          JsName:          cumulativeBackgroundLocationTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppRunTimeMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeBackgroundTime
+        JsName:          cumulativeBackgroundTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppRunTimeMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBackgroundTime
+          JsName:          cumulativeBackgroundTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppRunTimeMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeForegroundTime
+        JsName:          cumulativeForegroundTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppRunTimeMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeForegroundTime
+          JsName:          cumulativeForegroundTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppRunTimeMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppRunTimeMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXAverage
+    JsName:          MXAverage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+    Module:          
+      FullName:        MetricKit.MXAverage
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            averageMeasurement
+        JsName:          averageMeasurement
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+        Module:          
+          FullName:        MetricKit.MXAverage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averageMeasurement
+          JsName:          averageMeasurement
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+          Module:          
+            FullName:        MetricKit.MXAverage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            TypeArgument
+                  Name:            UnitType
+                  UnderlyingType:  
+                    Type:            Interface
+                    Name:            NSUnit
+                    WithProtocols:   []
+              WithProtocols:   []
+      - Name:            sampleCount
+        JsName:          sampleCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+        Module:          
+          FullName:        MetricKit.MXAverage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sampleCount
+          JsName:          sampleCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+          Module:          
+            FullName:        MetricKit.MXAverage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Long
+      - Name:            standardDeviation
+        JsName:          standardDeviation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+        Module:          
+          FullName:        MetricKit.MXAverage
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            standardDeviation
+          JsName:          standardDeviation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAverage.h'
+          Module:          
+            FullName:        MetricKit.MXAverage
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXBackgroundExitData
+    JsName:          MXBackgroundExitData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppExitMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeAbnormalExitCount
+        JsName:          cumulativeAbnormalExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeAbnormalExitCount
+          JsName:          cumulativeAbnormalExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeAppWatchdogExitCount
+        JsName:          cumulativeAppWatchdogExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeAppWatchdogExitCount
+          JsName:          cumulativeAppWatchdogExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeBackgroundTaskAssertionTimeoutExitCount
+        JsName:          cumulativeBackgroundTaskAssertionTimeoutExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBackgroundTaskAssertionTimeoutExitCount
+          JsName:          cumulativeBackgroundTaskAssertionTimeoutExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeBadAccessExitCount
+        JsName:          cumulativeBadAccessExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBadAccessExitCount
+          JsName:          cumulativeBadAccessExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeCPUResourceLimitExitCount
+        JsName:          cumulativeCPUResourceLimitExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCPUResourceLimitExitCount
+          JsName:          cumulativeCPUResourceLimitExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeIllegalInstructionExitCount
+        JsName:          cumulativeIllegalInstructionExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeIllegalInstructionExitCount
+          JsName:          cumulativeIllegalInstructionExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeMemoryPressureExitCount
+        JsName:          cumulativeMemoryPressureExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeMemoryPressureExitCount
+          JsName:          cumulativeMemoryPressureExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeMemoryResourceLimitExitCount
+        JsName:          cumulativeMemoryResourceLimitExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeMemoryResourceLimitExitCount
+          JsName:          cumulativeMemoryResourceLimitExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeNormalAppExitCount
+        JsName:          cumulativeNormalAppExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeNormalAppExitCount
+          JsName:          cumulativeNormalAppExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeSuspendedWithLockedFileExitCount
+        JsName:          cumulativeSuspendedWithLockedFileExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeSuspendedWithLockedFileExitCount
+          JsName:          cumulativeSuspendedWithLockedFileExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXCPUExceptionDiagnostic
+    JsName:          MXCPUExceptionDiagnostic
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+    Module:          
+      FullName:        MetricKit.MXCPUExceptionDiagnostic
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            callStackTree
+        JsName:          callStackTree
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCPUExceptionDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callStackTree
+          JsName:          callStackTree
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCPUExceptionDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCallStackTree
+              WithProtocols:   []
+      - Name:            totalCPUTime
+        JsName:          totalCPUTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCPUExceptionDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalCPUTime
+          JsName:          totalCPUTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCPUExceptionDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            totalSampledTime
+        JsName:          totalSampledTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCPUExceptionDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalSampledTime
+          JsName:          totalSampledTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUExceptionDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCPUExceptionDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXDiagnostic
+  - Name:            MXCPUMetric
+    JsName:          MXCPUMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUMetric.h'
+    Module:          
+      FullName:        MetricKit.MXCPUMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeCPUInstructions
+        JsName:          cumulativeCPUInstructions
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUMetric.h'
+        Module:          
+          FullName:        MetricKit.MXCPUMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCPUInstructions
+          JsName:          cumulativeCPUInstructions
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUMetric.h'
+          Module:          
+            FullName:        MetricKit.MXCPUMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnit
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeCPUTime
+        JsName:          cumulativeCPUTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUMetric.h'
+        Module:          
+          FullName:        MetricKit.MXCPUMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCPUTime
+          JsName:          cumulativeCPUTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCPUMetric.h'
+          Module:          
+            FullName:        MetricKit.MXCPUMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXCallStackTree
+    JsName:          MXCallStackTree
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCallStackTree.h'
+    Module:          
+      FullName:        MetricKit.MXCallStackTree
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCallStackTree.h'
+        Module:          
+          FullName:        MetricKit.MXCallStackTree
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXCellularConditionMetric
+    JsName:          MXCellularConditionMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCellularConditionMetric.h'
+    Module:          
+      FullName:        MetricKit.MXCellularConditionMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            histogrammedCellularConditionTime
+        JsName:          histogrammedCellularConditionTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCellularConditionMetric.h'
+        Module:          
+          FullName:        MetricKit.MXCellularConditionMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            histogrammedCellularConditionTime
+          JsName:          histogrammedCellularConditionTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCellularConditionMetric.h'
+          Module:          
+            FullName:        MetricKit.MXCellularConditionMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXHistogram
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXUnitSignalBars
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXCrashDiagnostic
+    JsName:          MXCrashDiagnostic
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+    Module:          
+      FullName:        MetricKit.MXCrashDiagnostic
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            callStackTree
+        JsName:          callStackTree
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callStackTree
+          JsName:          callStackTree
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCallStackTree
+              WithProtocols:   []
+      - Name:            exceptionCode
+        JsName:          exceptionCode
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            exceptionCode
+          JsName:          exceptionCode
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSNumber
+              WithProtocols:   []
+      - Name:            exceptionType
+        JsName:          exceptionType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            exceptionType
+          JsName:          exceptionType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSNumber
+              WithProtocols:   []
+      - Name:            signal
+        JsName:          signal
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            signal
+          JsName:          signal
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSNumber
+              WithProtocols:   []
+      - Name:            terminationReason
+        JsName:          terminationReason
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            terminationReason
+          JsName:          terminationReason
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            virtualMemoryRegionInfo
+        JsName:          virtualMemoryRegionInfo
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXCrashDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            virtualMemoryRegionInfo
+          JsName:          virtualMemoryRegionInfo
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXCrashDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXCrashDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXDiagnostic
+  - Name:            MXDiagnostic
+    JsName:          MXDiagnostic
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+    Module:          
+      FullName:        MetricKit.MXDiagnostic
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            dictionaryRepresentation
+        JsName:          dictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            applicationVersion
+        JsName:          applicationVersion
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationVersion
+          JsName:          applicationVersion
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            metaData
+        JsName:          metaData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metaData
+          JsName:          metaData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXMetaData
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXDiagnosticPayload
+    JsName:          MXDiagnosticPayload
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+    Module:          
+      FullName:        MetricKit.MXDiagnosticPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            dictionaryRepresentation
+        JsName:          dictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cpuExceptionDiagnostics
+        JsName:          cpuExceptionDiagnostics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cpuExceptionDiagnostics
+          JsName:          cpuExceptionDiagnostics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXCPUExceptionDiagnostic
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            crashDiagnostics
+        JsName:          crashDiagnostics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            crashDiagnostics
+          JsName:          crashDiagnostics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXCrashDiagnostic
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            diskWriteExceptionDiagnostics
+        JsName:          diskWriteExceptionDiagnostics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            diskWriteExceptionDiagnostics
+          JsName:          diskWriteExceptionDiagnostics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXDiskWriteExceptionDiagnostic
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            hangDiagnostics
+        JsName:          hangDiagnostics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hangDiagnostics
+          JsName:          hangDiagnostics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXHangDiagnostic
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            timeStampBegin
+        JsName:          timeStampBegin
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeStampBegin
+          JsName:          timeStampBegin
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+      - Name:            timeStampEnd
+        JsName:          timeStampEnd
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+        Module:          
+          FullName:        MetricKit.MXDiagnosticPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeStampEnd
+          JsName:          timeStampEnd
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiagnosticPayload.h'
+          Module:          
+            FullName:        MetricKit.MXDiagnosticPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXDiskIOMetric
+    JsName:          MXDiskIOMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskIOMetric.h'
+    Module:          
+      FullName:        MetricKit.MXDiskIOMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeLogicalWrites
+        JsName:          cumulativeLogicalWrites
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskIOMetric.h'
+        Module:          
+          FullName:        MetricKit.MXDiskIOMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeLogicalWrites
+          JsName:          cumulativeLogicalWrites
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskIOMetric.h'
+          Module:          
+            FullName:        MetricKit.MXDiskIOMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXDiskWriteExceptionDiagnostic
+    JsName:          MXDiskWriteExceptionDiagnostic
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskWriteExceptionDiagnostic.h'
+    Module:          
+      FullName:        MetricKit.MXDiskWriteExceptionDiagnostic
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            callStackTree
+        JsName:          callStackTree
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskWriteExceptionDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiskWriteExceptionDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callStackTree
+          JsName:          callStackTree
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskWriteExceptionDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXDiskWriteExceptionDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCallStackTree
+              WithProtocols:   []
+      - Name:            totalWritesCaused
+        JsName:          totalWritesCaused
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskWriteExceptionDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXDiskWriteExceptionDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalWritesCaused
+          JsName:          totalWritesCaused
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDiskWriteExceptionDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXDiskWriteExceptionDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXDiagnostic
+  - Name:            MXDisplayMetric
+    JsName:          MXDisplayMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDisplayMetric.h'
+    Module:          
+      FullName:        MetricKit.MXDisplayMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            averagePixelLuminance
+        JsName:          averagePixelLuminance
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDisplayMetric.h'
+        Module:          
+          FullName:        MetricKit.MXDisplayMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averagePixelLuminance
+          JsName:          averagePixelLuminance
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXDisplayMetric.h'
+          Module:          
+            FullName:        MetricKit.MXDisplayMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAverage
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXUnitAveragePixelLuminance
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXForegroundExitData
+    JsName:          MXForegroundExitData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+    Module:          
+      FullName:        MetricKit.MXAppExitMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeAbnormalExitCount
+        JsName:          cumulativeAbnormalExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeAbnormalExitCount
+          JsName:          cumulativeAbnormalExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeAppWatchdogExitCount
+        JsName:          cumulativeAppWatchdogExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeAppWatchdogExitCount
+          JsName:          cumulativeAppWatchdogExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeBadAccessExitCount
+        JsName:          cumulativeBadAccessExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBadAccessExitCount
+          JsName:          cumulativeBadAccessExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeIllegalInstructionExitCount
+        JsName:          cumulativeIllegalInstructionExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeIllegalInstructionExitCount
+          JsName:          cumulativeIllegalInstructionExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeMemoryResourceLimitExitCount
+        JsName:          cumulativeMemoryResourceLimitExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeMemoryResourceLimitExitCount
+          JsName:          cumulativeMemoryResourceLimitExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            cumulativeNormalAppExitCount
+        JsName:          cumulativeNormalAppExitCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+        Module:          
+          FullName:        MetricKit.MXAppExitMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeNormalAppExitCount
+          JsName:          cumulativeNormalAppExitCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXAppExitMetric.h'
+          Module:          
+            FullName:        MetricKit.MXAppExitMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXGPUMetric
+    JsName:          MXGPUMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXGPUMetric.h'
+    Module:          
+      FullName:        MetricKit.MXGPUMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeGPUTime
+        JsName:          cumulativeGPUTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXGPUMetric.h'
+        Module:          
+          FullName:        MetricKit.MXGPUMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeGPUTime
+          JsName:          cumulativeGPUTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXGPUMetric.h'
+          Module:          
+            FullName:        MetricKit.MXGPUMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXHangDiagnostic
+    JsName:          MXHangDiagnostic
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHangDiagnostic.h'
+    Module:          
+      FullName:        MetricKit.MXHangDiagnostic
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            callStackTree
+        JsName:          callStackTree
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHangDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXHangDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            callStackTree
+          JsName:          callStackTree
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHangDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXHangDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCallStackTree
+              WithProtocols:   []
+      - Name:            hangDuration
+        JsName:          hangDuration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHangDiagnostic.h'
+        Module:          
+          FullName:        MetricKit.MXHangDiagnostic
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            hangDuration
+          JsName:          hangDuration
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHangDiagnostic.h'
+          Module:          
+            FullName:        MetricKit.MXHangDiagnostic
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXDiagnostic
+  - Name:            MXHistogram
+    JsName:          MXHistogram
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+    Module:          
+      FullName:        MetricKit.MXHistogram
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            bucketEnumerator
+        JsName:          bucketEnumerator
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+        Module:          
+          FullName:        MetricKit.MXHistogram
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bucketEnumerator
+          JsName:          bucketEnumerator
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+          Module:          
+            FullName:        MetricKit.MXHistogram
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSEnumerator
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXHistogramBucket
+                  TypeParameters:  
+                    - Type:            TypeArgument
+                      Name:            UnitType
+                      UnderlyingType:  
+                        Type:            Interface
+                        Name:            NSUnit
+                        WithProtocols:   []
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            totalBucketCount
+        JsName:          totalBucketCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+        Module:          
+          FullName:        MetricKit.MXHistogram
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalBucketCount
+          JsName:          totalBucketCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+          Module:          
+            FullName:        MetricKit.MXHistogram
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXHistogramBucket
+    JsName:          MXHistogramBucket
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+    Module:          
+      FullName:        MetricKit.MXHistogram
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            bucketCount
+        JsName:          bucketCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+        Module:          
+          FullName:        MetricKit.MXHistogram
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bucketCount
+          JsName:          bucketCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+          Module:          
+            FullName:        MetricKit.MXHistogram
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+      - Name:            bucketEnd
+        JsName:          bucketEnd
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+        Module:          
+          FullName:        MetricKit.MXHistogram
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bucketEnd
+          JsName:          bucketEnd
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+          Module:          
+            FullName:        MetricKit.MXHistogram
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            TypeArgument
+                  Name:            UnitType
+                  UnderlyingType:  
+                    Type:            Interface
+                    Name:            NSUnit
+                    WithProtocols:   []
+              WithProtocols:   []
+      - Name:            bucketStart
+        JsName:          bucketStart
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+        Module:          
+          FullName:        MetricKit.MXHistogram
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bucketStart
+          JsName:          bucketStart
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXHistogram.h'
+          Module:          
+            FullName:        MetricKit.MXHistogram
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            TypeArgument
+                  Name:            UnitType
+                  UnderlyingType:  
+                    Type:            Interface
+                    Name:            NSUnit
+                    WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXLocationActivityMetric
+    JsName:          MXLocationActivityMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+    Module:          
+      FullName:        MetricKit.MXLocationActivityMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeBestAccuracyForNavigationTime
+        JsName:          cumulativeBestAccuracyForNavigationTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBestAccuracyForNavigationTime
+          JsName:          cumulativeBestAccuracyForNavigationTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeBestAccuracyTime
+        JsName:          cumulativeBestAccuracyTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeBestAccuracyTime
+          JsName:          cumulativeBestAccuracyTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeHundredMetersAccuracyTime
+        JsName:          cumulativeHundredMetersAccuracyTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeHundredMetersAccuracyTime
+          JsName:          cumulativeHundredMetersAccuracyTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeKilometerAccuracyTime
+        JsName:          cumulativeKilometerAccuracyTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeKilometerAccuracyTime
+          JsName:          cumulativeKilometerAccuracyTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeNearestTenMetersAccuracyTime
+        JsName:          cumulativeNearestTenMetersAccuracyTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeNearestTenMetersAccuracyTime
+          JsName:          cumulativeNearestTenMetersAccuracyTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeThreeKilometersAccuracyTime
+        JsName:          cumulativeThreeKilometersAccuracyTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+        Module:          
+          FullName:        MetricKit.MXLocationActivityMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeThreeKilometersAccuracyTime
+          JsName:          cumulativeThreeKilometersAccuracyTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXLocationActivityMetric.h'
+          Module:          
+            FullName:        MetricKit.MXLocationActivityMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXMemoryMetric
+    JsName:          MXMemoryMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMemoryMetric.h'
+    Module:          
+      FullName:        MetricKit.MXMemoryMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            averageSuspendedMemory
+        JsName:          averageSuspendedMemory
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMemoryMetric.h'
+        Module:          
+          FullName:        MetricKit.MXMemoryMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averageSuspendedMemory
+          JsName:          averageSuspendedMemory
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMemoryMetric.h'
+          Module:          
+            FullName:        MetricKit.MXMemoryMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAverage
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            peakMemoryUsage
+        JsName:          peakMemoryUsage
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMemoryMetric.h'
+        Module:          
+          FullName:        MetricKit.MXMemoryMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            peakMemoryUsage
+          JsName:          peakMemoryUsage
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMemoryMetric.h'
+          Module:          
+            FullName:        MetricKit.MXMemoryMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXMetaData
+    JsName:          MXMetaData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+    Module:          
+      FullName:        MetricKit.MXMetaData
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            DictionaryRepresentation
+        JsName:          DictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            dictionaryRepresentation
+        JsName:          dictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            applicationBuildVersion
+        JsName:          applicationBuildVersion
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationBuildVersion
+          JsName:          applicationBuildVersion
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+          Module:          
+            FullName:        MetricKit.MXMetaData
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            deviceType
+        JsName:          deviceType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            deviceType
+          JsName:          deviceType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+          Module:          
+            FullName:        MetricKit.MXMetaData
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            osVersion
+        JsName:          osVersion
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            osVersion
+          JsName:          osVersion
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+          Module:          
+            FullName:        MetricKit.MXMetaData
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            platformArchitecture
+        JsName:          platformArchitecture
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            platformArchitecture
+          JsName:          platformArchitecture
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+          Module:          
+            FullName:        MetricKit.MXMetaData
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            regionFormat
+        JsName:          regionFormat
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+        Module:          
+          FullName:        MetricKit.MXMetaData
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            regionFormat
+          JsName:          regionFormat
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetaData.h'
+          Module:          
+            FullName:        MetricKit.MXMetaData
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXMetric
+    JsName:          MXMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetric.h'
+    Module:          
+      FullName:        MetricKit.MXMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            DictionaryRepresentation
+        JsName:          DictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetric.h'
+        Module:          
+          FullName:        MetricKit.MXMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            dictionaryRepresentation
+        JsName:          dictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetric.h'
+        Module:          
+          FullName:        MetricKit.MXMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetric.h'
+        Module:          
+          FullName:        MetricKit.MXMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXMetricManager
+    JsName:          MXMetricManager
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+    Module:          
+      FullName:        MetricKit.MXMetricManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addSubscriber:'
+        JsName:          addSubscriber
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - MXMetricManagerSubscriber
+      - Name:            'removeSubscriber:'
+        JsName:          removeSubscriber
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - MXMetricManagerSubscriber
+    StaticMethods:   
+      - Name:            'makeLogHandleWithCategory:'
+        JsName:          makeLogHandleWithCategory
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSObject
+            WithProtocols:   
+              - OS_os_log
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+    InstanceProperties: 
+      - Name:            pastDiagnosticPayloads
+        JsName:          pastDiagnosticPayloads
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pastDiagnosticPayloads
+          JsName:          pastDiagnosticPayloads
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+          Module:          
+            FullName:        MetricKit.MXMetricManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXDiagnosticPayload
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            pastPayloads
+        JsName:          pastPayloads
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            pastPayloads
+          JsName:          pastPayloads
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+          Module:          
+            FullName:        MetricKit.MXMetricManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXMetricPayload
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: 
+      - Name:            sharedManager
+        JsName:          sharedManager
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            sharedManager
+          JsName:          sharedManager
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+          Module:          
+            FullName:        MetricKit.MXMetricManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXMetricManager
+              WithProtocols:   []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            MXMetricManagerSubscriber
+    JsName:          MXMetricManagerSubscriber
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+    Module:          
+      FullName:        MetricKit.MXMetricManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'didReceiveDiagnosticPayloads:'
+        JsName:          didReceiveDiagnosticPayloads
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            MXDiagnosticPayload
+                WithProtocols:   []
+            WithProtocols:   []
+      - Name:            'didReceiveMetricPayloads:'
+        JsName:          didReceiveMetricPayloads
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricManager.h'
+        Module:          
+          FullName:        MetricKit.MXMetricManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            MXMetricPayload
+                WithProtocols:   []
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            MXMetricPayload
+    JsName:          MXMetricPayload
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+    Module:          
+      FullName:        MetricKit.MXMetricPayload
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            DictionaryRepresentation
+        JsName:          DictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            dictionaryRepresentation
+        JsName:          dictionaryRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSDictionary
+            WithProtocols:   []
+      - Name:            JSONRepresentation
+        JsName:          JSONRepresentation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSData
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            animationMetrics
+        JsName:          animationMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            animationMetrics
+          JsName:          animationMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAnimationMetric
+              WithProtocols:   []
+      - Name:            applicationExitMetrics
+        JsName:          applicationExitMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationExitMetrics
+          JsName:          applicationExitMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAppExitMetric
+              WithProtocols:   []
+      - Name:            applicationLaunchMetrics
+        JsName:          applicationLaunchMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationLaunchMetrics
+          JsName:          applicationLaunchMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAppLaunchMetric
+              WithProtocols:   []
+      - Name:            applicationResponsivenessMetrics
+        JsName:          applicationResponsivenessMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationResponsivenessMetrics
+          JsName:          applicationResponsivenessMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAppResponsivenessMetric
+              WithProtocols:   []
+      - Name:            applicationTimeMetrics
+        JsName:          applicationTimeMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            applicationTimeMetrics
+          JsName:          applicationTimeMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAppRunTimeMetric
+              WithProtocols:   []
+      - Name:            cellularConditionMetrics
+        JsName:          cellularConditionMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cellularConditionMetrics
+          JsName:          cellularConditionMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCellularConditionMetric
+              WithProtocols:   []
+      - Name:            cpuMetrics
+        JsName:          cpuMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cpuMetrics
+          JsName:          cpuMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXCPUMetric
+              WithProtocols:   []
+      - Name:            diskIOMetrics
+        JsName:          diskIOMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            diskIOMetrics
+          JsName:          diskIOMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXDiskIOMetric
+              WithProtocols:   []
+      - Name:            displayMetrics
+        JsName:          displayMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            displayMetrics
+          JsName:          displayMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXDisplayMetric
+              WithProtocols:   []
+      - Name:            gpuMetrics
+        JsName:          gpuMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            gpuMetrics
+          JsName:          gpuMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXGPUMetric
+              WithProtocols:   []
+      - Name:            includesMultipleApplicationVersions
+        JsName:          includesMultipleApplicationVersions
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            includesMultipleApplicationVersions
+          JsName:          includesMultipleApplicationVersions
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            latestApplicationVersion
+        JsName:          latestApplicationVersion
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            latestApplicationVersion
+          JsName:          latestApplicationVersion
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            locationActivityMetrics
+        JsName:          locationActivityMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            locationActivityMetrics
+          JsName:          locationActivityMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXLocationActivityMetric
+              WithProtocols:   []
+      - Name:            memoryMetrics
+        JsName:          memoryMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            memoryMetrics
+          JsName:          memoryMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXMemoryMetric
+              WithProtocols:   []
+      - Name:            metaData
+        JsName:          metaData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metaData
+          JsName:          metaData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXMetaData
+              WithProtocols:   []
+      - Name:            networkTransferMetrics
+        JsName:          networkTransferMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            networkTransferMetrics
+          JsName:          networkTransferMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXNetworkTransferMetric
+              WithProtocols:   []
+      - Name:            signpostMetrics
+        JsName:          signpostMetrics
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            signpostMetrics
+          JsName:          signpostMetrics
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            MXSignpostMetric
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            timeStampBegin
+        JsName:          timeStampBegin
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeStampBegin
+          JsName:          timeStampBegin
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+      - Name:            timeStampEnd
+        JsName:          timeStampEnd
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+        Module:          
+          FullName:        MetricKit.MXMetricPayload
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            timeStampEnd
+          JsName:          timeStampEnd
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXMetricPayload.h'
+          Module:          
+            FullName:        MetricKit.MXMetricPayload
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXNetworkTransferMetric
+    JsName:          MXNetworkTransferMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+    Module:          
+      FullName:        MetricKit.MXNetworkTransferMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            cumulativeCellularDownload
+        JsName:          cumulativeCellularDownload
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+        Module:          
+          FullName:        MetricKit.MXNetworkTransferMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCellularDownload
+          JsName:          cumulativeCellularDownload
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+          Module:          
+            FullName:        MetricKit.MXNetworkTransferMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeCellularUpload
+        JsName:          cumulativeCellularUpload
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+        Module:          
+          FullName:        MetricKit.MXNetworkTransferMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCellularUpload
+          JsName:          cumulativeCellularUpload
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+          Module:          
+            FullName:        MetricKit.MXNetworkTransferMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeWifiDownload
+        JsName:          cumulativeWifiDownload
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+        Module:          
+          FullName:        MetricKit.MXNetworkTransferMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeWifiDownload
+          JsName:          cumulativeWifiDownload
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+          Module:          
+            FullName:        MetricKit.MXNetworkTransferMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeWifiUpload
+        JsName:          cumulativeWifiUpload
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+        Module:          
+          FullName:        MetricKit.MXNetworkTransferMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeWifiUpload
+          JsName:          cumulativeWifiUpload
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXNetworkTransferMetric.h'
+          Module:          
+            FullName:        MetricKit.MXNetworkTransferMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXSignpostIntervalData
+    JsName:          MXSignpostIntervalData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+    Module:          
+      FullName:        MetricKit.MXSignpostMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            averageMemory
+        JsName:          averageMemory
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            averageMemory
+          JsName:          averageMemory
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXAverage
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeCPUTime
+        JsName:          cumulativeCPUTime
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeCPUTime
+          JsName:          cumulativeCPUTime
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            cumulativeLogicalWrites
+        JsName:          cumulativeLogicalWrites
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            cumulativeLogicalWrites
+          JsName:          cumulativeLogicalWrites
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSMeasurement
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitInformationStorage
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            histogrammedSignpostDuration
+        JsName:          histogrammedSignpostDuration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            histogrammedSignpostDuration
+          JsName:          histogrammedSignpostDuration
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXHistogram
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSUnitDuration
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            MXSignpostMetric
+    JsName:          MXSignpostMetric
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+    Module:          
+      FullName:        MetricKit.MXSignpostMetric
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            signpostCategory
+        JsName:          signpostCategory
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            signpostCategory
+          JsName:          signpostCategory
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            signpostIntervalData
+        JsName:          signpostIntervalData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            signpostIntervalData
+          JsName:          signpostIntervalData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXSignpostIntervalData
+              WithProtocols:   []
+      - Name:            signpostName
+        JsName:          signpostName
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            signpostName
+          JsName:          signpostName
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            totalCount
+        JsName:          totalCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+        Module:          
+          FullName:        MetricKit.MXSignpostMetric
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalCount
+          JsName:          totalCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXSignpostMetric.h'
+          Module:          
+            FullName:        MetricKit.MXSignpostMetric
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULong
+    StaticProperties: []
+    Protocols:       []
+    Base:            MXMetric
+  - Name:            MXUnitAveragePixelLuminance
+    JsName:          MXUnitAveragePixelLuminance
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+    Module:          
+      FullName:        MetricKit.MXUnit
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: 
+      - Name:            apl
+        JsName:          apl
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+        Module:          
+          FullName:        MetricKit.MXUnit
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            apl
+          JsName:          apl
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+          Module:          
+            FullName:        MetricKit.MXUnit
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXUnitAveragePixelLuminance
+              WithProtocols:   []
+    Protocols:       []
+    Base:            NSDimension
+  - Name:            MXUnitSignalBars
+    JsName:          MXUnitSignalBars
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+    Module:          
+      FullName:        MetricKit.MXUnit
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: 
+      - Name:            bars
+        JsName:          bars
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+        Module:          
+          FullName:        MetricKit.MXUnit
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            bars
+          JsName:          bars
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/MetricKit.framework/Headers/MXUnit.h'
+          Module:          
+            FullName:        MetricKit.MXUnit
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            MXUnitSignalBars
+              WithProtocols:   []
+    Protocols:       []
+    Base:            NSDimension
+...

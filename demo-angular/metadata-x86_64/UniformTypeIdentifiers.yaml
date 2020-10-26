@@ -1,0 +1,2577 @@
+---
+Module:          
+  FullName:        UniformTypeIdentifiers
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         UniformTypeIdentifiers
+      IsFramework:     true
+Items:           
+  - Name:            UTTagClassFilenameExtension
+    JsName:          UTTagClassFilenameExtension
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTTagClass.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTTagClass
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            UTTagClassMIMEType
+    JsName:          UTTagClassMIMEType
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTTagClass.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTTagClass
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            UTType
+    JsName:          UTType
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTType
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'conformsToType:'
+        JsName:          conformsToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'isSubtypeOfType:'
+        JsName:          isSubtypeOfType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'isSupertypeOfType:'
+        JsName:          isSupertypeOfType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Bool
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+    StaticMethods:   
+      - Name:            'typeWithFilenameExtension:'
+        JsName:          typeWithFilenameExtension
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'typeWithFilenameExtension:conformingToType:'
+        JsName:          typeWithFilenameExtensionConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'typeWithIdentifier:'
+        JsName:          typeWithIdentifier
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'typeWithMIMEType:'
+        JsName:          typeWithMIMEType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'typeWithMIMEType:conformingToType:'
+        JsName:          typeWithMIMETypeConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'typesWithTag:tagClass:conformingToType:'
+        JsName:          typesWithTagTagClassConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            UTType
+                WithProtocols:   []
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'typeWithTag:tagClass:conformingToType:'
+        JsName:          typeWithTagTagClassConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'exportedTypeWithIdentifier:'
+        JsName:          exportedTypeWithIdentifier
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'exportedTypeWithIdentifier:conformingToType:'
+        JsName:          exportedTypeWithIdentifierConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+      - Name:            'importedTypeWithIdentifier:'
+        JsName:          importedTypeWithIdentifier
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+      - Name:            'importedTypeWithIdentifier:conformingToType:'
+        JsName:          importedTypeWithIdentifierConformingToType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UTType
+            WithProtocols:   []
+    InstanceProperties: 
+      - Name:            declared
+        JsName:          declared
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isDeclared
+          JsName:          isDeclared
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            dynamic
+        JsName:          dynamic
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isDynamic
+          JsName:          isDynamic
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            identifier
+        JsName:          identifier
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            identifier
+          JsName:          identifier
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            localizedDescription
+        JsName:          localizedDescription
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            localizedDescription
+          JsName:          localizedDescription
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            preferredFilenameExtension
+        JsName:          preferredFilenameExtension
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredFilenameExtension
+          JsName:          preferredFilenameExtension
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            preferredMIMEType
+        JsName:          preferredMIMEType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            preferredMIMEType
+          JsName:          preferredMIMEType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSString
+              WithProtocols:   []
+      - Name:            publicType
+        JsName:          publicType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isPublicType
+          JsName:          isPublicType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            referenceURL
+        JsName:          referenceURL
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            referenceURL
+          JsName:          referenceURL
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSURL
+              WithProtocols:   []
+      - Name:            version
+        JsName:          version
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            version
+          JsName:          version
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSNumber
+              WithProtocols:   []
+      - Name:            supertypes
+        JsName:          supertypes
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            supertypes
+          JsName:          supertypes
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSSet
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            UTType
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            tags
+        JsName:          tags
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+        Module:          
+          FullName:        UniformTypeIdentifiers.UTType
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            tags
+          JsName:          tags
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTType.h'
+          Module:          
+            FullName:        UniformTypeIdentifiers.UTType
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSString
+                  WithProtocols:   []
+                - Type:            Interface
+                  Name:            NSArray
+                  TypeParameters:  
+                    - Type:            Interface
+                      Name:            NSString
+                      WithProtocols:   []
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+      - NSSecureCoding
+    Base:            NSObject
+  - Name:            UTType3DContent
+    JsName:          UTType3DContent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAIFF
+    JsName:          UTTypeAIFF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeARReferenceObject
+    JsName:          UTTypeARReferenceObject
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAVI
+    JsName:          UTTypeAVI
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAliasFile
+    JsName:          UTTypeAliasFile
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAppleArchive
+    JsName:          UTTypeAppleArchive
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAppleProtectedMPEG4Audio
+    JsName:          UTTypeAppleProtectedMPEG4Audio
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAppleProtectedMPEG4Video
+    JsName:          UTTypeAppleProtectedMPEG4Video
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAppleScript
+    JsName:          UTTypeAppleScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeApplication
+    JsName:          UTTypeApplication
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeApplicationBundle
+    JsName:          UTTypeApplicationBundle
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeApplicationExtension
+    JsName:          UTTypeApplicationExtension
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeArchive
+    JsName:          UTTypeArchive
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAssemblyLanguageSource
+    JsName:          UTTypeAssemblyLanguageSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAudio
+    JsName:          UTTypeAudio
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeAudiovisualContent
+    JsName:          UTTypeAudiovisualContent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeBMP
+    JsName:          UTTypeBMP
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeBZ2
+    JsName:          UTTypeBZ2
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeBinaryPropertyList
+    JsName:          UTTypeBinaryPropertyList
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeBookmark
+    JsName:          UTTypeBookmark
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeBundle
+    JsName:          UTTypeBundle
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCHeader
+    JsName:          UTTypeCHeader
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCPlusPlusHeader
+    JsName:          UTTypeCPlusPlusHeader
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCPlusPlusSource
+    JsName:          UTTypeCPlusPlusSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCSource
+    JsName:          UTTypeCSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCalendarEvent
+    JsName:          UTTypeCalendarEvent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCommaSeparatedText
+    JsName:          UTTypeCommaSeparatedText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeCompositeContent
+    JsName:          UTTypeCompositeContent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeContact
+    JsName:          UTTypeContact
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeContent
+    JsName:          UTTypeContent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeData
+    JsName:          UTTypeData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeDatabase
+    JsName:          UTTypeDatabase
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeDelimitedText
+    JsName:          UTTypeDelimitedText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeDirectory
+    JsName:          UTTypeDirectory
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeDiskImage
+    JsName:          UTTypeDiskImage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeEPUB
+    JsName:          UTTypeEPUB
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeEXE
+    JsName:          UTTypeEXE
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeEmailMessage
+    JsName:          UTTypeEmailMessage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeExecutable
+    JsName:          UTTypeExecutable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeFileURL
+    JsName:          UTTypeFileURL
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeFlatRTFD
+    JsName:          UTTypeFlatRTFD
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeFolder
+    JsName:          UTTypeFolder
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeFont
+    JsName:          UTTypeFont
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeFramework
+    JsName:          UTTypeFramework
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeGIF
+    JsName:          UTTypeGIF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeGZIP
+    JsName:          UTTypeGZIP
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeHEIC
+    JsName:          UTTypeHEIC
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeHEIF
+    JsName:          UTTypeHEIF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeHTML
+    JsName:          UTTypeHTML
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeICNS
+    JsName:          UTTypeICNS
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeICO
+    JsName:          UTTypeICO
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeImage
+    JsName:          UTTypeImage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeInternetLocation
+    JsName:          UTTypeInternetLocation
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeInternetShortcut
+    JsName:          UTTypeInternetShortcut
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeItem
+    JsName:          UTTypeItem
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeJPEG
+    JsName:          UTTypeJPEG
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeJSON
+    JsName:          UTTypeJSON
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeJavaScript
+    JsName:          UTTypeJavaScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeLivePhoto
+    JsName:          UTTypeLivePhoto
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeLog
+    JsName:          UTTypeLog
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeM3UPlaylist
+    JsName:          UTTypeM3UPlaylist
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMIDI
+    JsName:          UTTypeMIDI
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMP3
+    JsName:          UTTypeMP3
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMPEG
+    JsName:          UTTypeMPEG
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMPEG2TransportStream
+    JsName:          UTTypeMPEG2TransportStream
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMPEG2Video
+    JsName:          UTTypeMPEG2Video
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMPEG4Audio
+    JsName:          UTTypeMPEG4Audio
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMPEG4Movie
+    JsName:          UTTypeMPEG4Movie
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMessage
+    JsName:          UTTypeMessage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMountPoint
+    JsName:          UTTypeMountPoint
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeMovie
+    JsName:          UTTypeMovie
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeOSAScript
+    JsName:          UTTypeOSAScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeOSAScriptBundle
+    JsName:          UTTypeOSAScriptBundle
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeObjectiveCPlusPlusSource
+    JsName:          UTTypeObjectiveCPlusPlusSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeObjectiveCSource
+    JsName:          UTTypeObjectiveCSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePDF
+    JsName:          UTTypePDF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePHPScript
+    JsName:          UTTypePHPScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePKCS12
+    JsName:          UTTypePKCS12
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePNG
+    JsName:          UTTypePNG
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePackage
+    JsName:          UTTypePackage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePerlScript
+    JsName:          UTTypePerlScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePlainText
+    JsName:          UTTypePlainText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePlaylist
+    JsName:          UTTypePlaylist
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePluginBundle
+    JsName:          UTTypePluginBundle
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePresentation
+    JsName:          UTTypePresentation
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePropertyList
+    JsName:          UTTypePropertyList
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypePythonScript
+    JsName:          UTTypePythonScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeQuickLookGenerator
+    JsName:          UTTypeQuickLookGenerator
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeQuickTimeMovie
+    JsName:          UTTypeQuickTimeMovie
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeRAWImage
+    JsName:          UTTypeRAWImage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeRTF
+    JsName:          UTTypeRTF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeRTFD
+    JsName:          UTTypeRTFD
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeRealityFile
+    JsName:          UTTypeRealityFile
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeResolvable
+    JsName:          UTTypeResolvable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeRubyScript
+    JsName:          UTTypeRubyScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSVG
+    JsName:          UTTypeSVG
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSceneKitScene
+    JsName:          UTTypeSceneKitScene
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeScript
+    JsName:          UTTypeScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeShellScript
+    JsName:          UTTypeShellScript
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSourceCode
+    JsName:          UTTypeSourceCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSpotlightImporter
+    JsName:          UTTypeSpotlightImporter
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSpreadsheet
+    JsName:          UTTypeSpreadsheet
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSwiftSource
+    JsName:          UTTypeSwiftSource
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSymbolicLink
+    JsName:          UTTypeSymbolicLink
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeSystemPreferencesPane
+    JsName:          UTTypeSystemPreferencesPane
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeTIFF
+    JsName:          UTTypeTIFF
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeTabSeparatedText
+    JsName:          UTTypeTabSeparatedText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeText
+    JsName:          UTTypeText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeToDoItem
+    JsName:          UTTypeToDoItem
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeURL
+    JsName:          UTTypeURL
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeURLBookmarkData
+    JsName:          UTTypeURLBookmarkData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUSD
+    JsName:          UTTypeUSD
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUSDZ
+    JsName:          UTTypeUSDZ
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUTF16ExternalPlainText
+    JsName:          UTTypeUTF16ExternalPlainText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUTF16PlainText
+    JsName:          UTTypeUTF16PlainText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUTF8PlainText
+    JsName:          UTTypeUTF8PlainText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUTF8TabSeparatedText
+    JsName:          UTTypeUTF8TabSeparatedText
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeUnixExecutable
+    JsName:          UTTypeUnixExecutable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeVCard
+    JsName:          UTTypeVCard
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeVideo
+    JsName:          UTTypeVideo
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeVolume
+    JsName:          UTTypeVolume
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeWAV
+    JsName:          UTTypeWAV
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeWebArchive
+    JsName:          UTTypeWebArchive
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeWebP
+    JsName:          UTTypeWebP
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeX509Certificate
+    JsName:          UTTypeX509Certificate
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeXML
+    JsName:          UTTypeXML
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeXMLPropertyList
+    JsName:          UTTypeXMLPropertyList
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeXPCService
+    JsName:          UTTypeXPCService
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeYAML
+    JsName:          UTTypeYAML
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+  - Name:            UTTypeZIP
+    JsName:          UTTypeZIP
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UTCoreTypes.h'
+    Module:          
+      FullName:        UniformTypeIdentifiers.UTCoreTypes
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            UTType
+      WithProtocols:   []
+...

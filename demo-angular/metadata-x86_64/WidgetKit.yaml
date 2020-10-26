@@ -1,0 +1,38 @@
+---
+Module:          
+  FullName:        WidgetKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         WidgetKit
+      IsFramework:     true
+Items:           
+  - Name:            WGWidgetUserInfoKeyFamily
+    JsName:          WGWidgetUserInfoKeyFamily
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/WidgetKit.framework/Headers/WGWidgetDefines.h'
+    Module:          
+      FullName:        WidgetKit.WGWidgetDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            WGWidgetUserInfoKeyKind
+    JsName:          WGWidgetUserInfoKeyKind
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/WidgetKit.framework/Headers/WGWidgetDefines.h'
+    Module:          
+      FullName:        WidgetKit.WGWidgetDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+...

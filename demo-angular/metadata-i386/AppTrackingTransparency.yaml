@@ -1,0 +1,181 @@
+---
+Module:          
+  FullName:        AppTrackingTransparency
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AppTrackingTransparency
+      IsFramework:     true
+Items:           
+  - Name:            ATTrackingManager
+    JsName:          ATTrackingManager
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    IntroducedIn:    14
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   
+      - Name:            'requestTrackingAuthorizationWithCompletionHandler:'
+        JsName:          requestTrackingAuthorizationWithCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+        Module:          
+          FullName:        AppTrackingTransparency
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AppTrackingTransparency
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Enum
+                Name:            ATTrackingManagerAuthorizationStatus
+    InstanceProperties: []
+    StaticProperties: 
+      - Name:            trackingAuthorizationStatus
+        JsName:          trackingAuthorizationStatus
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+        Module:          
+          FullName:        AppTrackingTransparency
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AppTrackingTransparency
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            trackingAuthorizationStatus
+          JsName:          trackingAuthorizationStatus
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+          Module:          
+            FullName:        AppTrackingTransparency
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AppTrackingTransparency
+                IsFramework:     true
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ATTrackingManagerAuthorizationStatus
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ATTrackingManagerAuthorizationStatus
+    JsName:          ATTrackingManagerAuthorizationStatus
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    IntroducedIn:    14
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ATTrackingManagerAuthorizationStatusNotDetermined: '0'
+      - ATTrackingManagerAuthorizationStatusRestricted: '1'
+      - ATTrackingManagerAuthorizationStatusDenied: '2'
+      - ATTrackingManagerAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - NotDetermined:   '0'
+      - Restricted:      '1'
+      - Denied:          '2'
+      - Authorized:      '3'
+  - Name:            ATTrackingManagerAuthorizationStatusAuthorized
+    JsName:          ATTrackingManagerAuthorizationStatusAuthorized
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ATTrackingManagerAuthorizationStatusDenied
+    JsName:          ATTrackingManagerAuthorizationStatusDenied
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ATTrackingManagerAuthorizationStatusNotDetermined
+    JsName:          ATTrackingManagerAuthorizationStatusNotDetermined
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ATTrackingManagerAuthorizationStatusRestricted
+    JsName:          ATTrackingManagerAuthorizationStatusRestricted
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/ATTrackingManager.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            AppTrackingTransparencyVersionNumber
+    JsName:          AppTrackingTransparencyVersionNumber
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/AppTrackingTransparency.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            AppTrackingTransparencyVersionString
+    JsName:          AppTrackingTransparencyVersionString
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/AppTrackingTransparency.framework/Headers/AppTrackingTransparency.h'
+    Module:          
+      FullName:        AppTrackingTransparency
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AppTrackingTransparency
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+...

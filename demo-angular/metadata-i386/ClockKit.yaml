@@ -1,0 +1,425 @@
+---
+Module:          
+  FullName:        ClockKit
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ClockKit
+      IsFramework:     true
+Items:           
+  - Name:            CLKComplicationColumnAlignmentLeading
+    JsName:          CLKComplicationColumnAlignmentLeading
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationColumnAlignmentLeft
+    JsName:          CLKComplicationColumnAlignmentLeft
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationColumnAlignmentRight
+    JsName:          CLKComplicationColumnAlignmentRight
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationColumnAlignmentTrailing
+    JsName:          CLKComplicationColumnAlignmentTrailing
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationFamilyCircularSmall
+    JsName:          CLKComplicationFamilyCircularSmall
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CLKComplicationFamilyModularLarge
+    JsName:          CLKComplicationFamilyModularLarge
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationFamilyModularSmall
+    JsName:          CLKComplicationFamilyModularSmall
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationFamilyUtilitarianLarge
+    JsName:          CLKComplicationFamilyUtilitarianLarge
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLKComplicationFamilyUtilitarianSmall
+    JsName:          CLKComplicationFamilyUtilitarianSmall
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLKComplicationPrivacyBehaviorHideOnLockScreen
+    JsName:          CLKComplicationPrivacyBehaviorHideOnLockScreen
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationPrivacyBehaviorShowOnLockScreen
+    JsName:          CLKComplicationPrivacyBehaviorShowOnLockScreen
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationRingStyleClosed
+    JsName:          CLKComplicationRingStyleClosed
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationRingStyleOpen
+    JsName:          CLKComplicationRingStyleOpen
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationTimeTravelDirectionBackward
+    JsName:          CLKComplicationTimeTravelDirectionBackward
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLKComplicationTimeTravelDirectionForward
+    JsName:          CLKComplicationTimeTravelDirectionForward
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationTimeTravelDirectionNone
+    JsName:          CLKComplicationTimeTravelDirectionNone
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKComplicationTimelineAnimationBehaviorAlways
+    JsName:          CLKComplicationTimelineAnimationBehaviorAlways
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLKComplicationTimelineAnimationBehaviorGrouped
+    JsName:          CLKComplicationTimelineAnimationBehaviorGrouped
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKComplicationTimelineAnimationBehaviorNever
+    JsName:          CLKComplicationTimelineAnimationBehaviorNever
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKGaugeProviderStyleFill
+    JsName:          CLKGaugeProviderStyleFill
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKGaugeProviderStyleRing
+    JsName:          CLKGaugeProviderStyleRing
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKDefines.h'
+    Module:          
+      FullName:        ClockKit.CLKDefines
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKRelativeDateStyleNatural
+    JsName:          CLKRelativeDateStyleNatural
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            CLKRelativeDateStyleNaturalAbbreviated
+    JsName:          CLKRelativeDateStyleNaturalAbbreviated
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLKRelativeDateStyleNaturalFull
+    JsName:          CLKRelativeDateStyleNaturalFull
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            CLKRelativeDateStyleOffset
+    JsName:          CLKRelativeDateStyleOffset
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKRelativeDateStyleOffsetShort
+    JsName:          CLKRelativeDateStyleOffsetShort
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CLKRelativeDateStyleTimer
+    JsName:          CLKRelativeDateStyleTimer
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKTextProvider.h'
+    Module:          
+      FullName:        ClockKit.CLKTextProvider
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLKWatchFaceLibrary
+    JsName:          CLKWatchFaceLibrary
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'addWatchFaceAtURL:completionHandler:'
+        JsName:          addWatchFaceAtURLCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+        Module:          
+          FullName:        ClockKit.CLKWatchFaceLibrary
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            NSURL
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            CLKWatchFaceLibraryErrorCode
+    JsName:          CLKWatchFaceLibraryErrorCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - CLKWatchFaceLibraryErrorCodeNotFileURL: '1'
+      - CLKWatchFaceLibraryErrorCodeInvalidFile: '2'
+      - CLKWatchFaceLibraryErrorCodePermissionDenied: '3'
+      - CLKWatchFaceLibraryErrorCodeFaceNotAvailable: '4'
+    SwiftNameFields: 
+      - NotFileURL:      '1'
+      - InvalidFile:     '2'
+      - PermissionDenied: '3'
+      - FaceNotAvailable: '4'
+  - Name:            CLKWatchFaceLibraryErrorCodeFaceNotAvailable
+    JsName:          CLKWatchFaceLibraryErrorCodeFaceNotAvailable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            CLKWatchFaceLibraryErrorCodeInvalidFile
+    JsName:          CLKWatchFaceLibraryErrorCodeInvalidFile
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            CLKWatchFaceLibraryErrorCodeNotFileURL
+    JsName:          CLKWatchFaceLibraryErrorCodeNotFileURL
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            CLKWatchFaceLibraryErrorCodePermissionDenied
+    JsName:          CLKWatchFaceLibraryErrorCodePermissionDenied
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            CLKWatchFaceLibraryErrorDomain
+    JsName:          CLKWatchFaceLibraryErrorDomain
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ClockKit.framework/Headers/CLKWatchFaceLibrary.h'
+    Module:          
+      FullName:        ClockKit.CLKWatchFaceLibrary
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    14.0
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+...

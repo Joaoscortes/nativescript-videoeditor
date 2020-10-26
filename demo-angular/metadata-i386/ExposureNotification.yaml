@@ -1,0 +1,3417 @@
+---
+Module:          
+  FullName:        ExposureNotification
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         ExposureNotification
+      IsFramework:     true
+Items:           
+  - Name:            ENAttenuationMax
+    JsName:          ENAttenuationMax
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '255'
+  - Name:            ENAttenuationMin
+    JsName:          ENAttenuationMin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENAuthorizationStatus
+    JsName:          ENAuthorizationStatus
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENAuthorizationStatusUnknown: '0'
+      - ENAuthorizationStatusRestricted: '1'
+      - ENAuthorizationStatusNotAuthorized: '2'
+      - ENAuthorizationStatusAuthorized: '3'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - Restricted:      '1'
+      - NotAuthorized:   '2'
+      - Authorized:      '3'
+  - Name:            ENAuthorizationStatusAuthorized
+    JsName:          ENAuthorizationStatusAuthorized
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ENAuthorizationStatusNotAuthorized
+    JsName:          ENAuthorizationStatusNotAuthorized
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENAuthorizationStatusRestricted
+    JsName:          ENAuthorizationStatusRestricted
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENAuthorizationStatusUnknown
+    JsName:          ENAuthorizationStatusUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENCalibrationConfidence
+    JsName:          ENCalibrationConfidence
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENCalibrationConfidenceLowest: '0'
+      - ENCalibrationConfidenceLow: '1'
+      - ENCalibrationConfidenceMedium: '2'
+      - ENCalibrationConfidenceHigh: '3'
+    SwiftNameFields: 
+      - Lowest:          '0'
+      - Low:             '1'
+      - Medium:          '2'
+      - High:            '3'
+  - Name:            ENCalibrationConfidenceHigh
+    JsName:          ENCalibrationConfidenceHigh
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ENCalibrationConfidenceLow
+    JsName:          ENCalibrationConfidenceLow
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENCalibrationConfidenceLowest
+    JsName:          ENCalibrationConfidenceLowest
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENCalibrationConfidenceMedium
+    JsName:          ENCalibrationConfidenceMedium
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENDaysSinceOnsetOfSymptomsUnknown
+    JsName:          ENDaysSinceOnsetOfSymptomsUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Int
+    Value:           '2147483647'
+  - Name:            ENDiagnosisReportType
+    JsName:          ENDiagnosisReportType
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENDiagnosisReportTypeUnknown: '0'
+      - ENDiagnosisReportTypeConfirmedTest: '1'
+      - ENDiagnosisReportTypeConfirmedClinicalDiagnosis: '2'
+      - ENDiagnosisReportTypeSelfReported: '3'
+      - ENDiagnosisReportTypeRecursive: '4'
+      - ENDiagnosisReportTypeRevoked: '5'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - ConfirmedTest:   '1'
+      - ConfirmedClinicalDiagnosis: '2'
+      - SelfReported:    '3'
+      - Recursive:       '4'
+      - Revoked:         '5'
+  - Name:            ENDiagnosisReportTypeConfirmedClinicalDiagnosis
+    JsName:          ENDiagnosisReportTypeConfirmedClinicalDiagnosis
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENDiagnosisReportTypeConfirmedTest
+    JsName:          ENDiagnosisReportTypeConfirmedTest
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENDiagnosisReportTypeRecursive
+    JsName:          ENDiagnosisReportTypeRecursive
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ENDiagnosisReportTypeRevoked
+    JsName:          ENDiagnosisReportTypeRevoked
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ENDiagnosisReportTypeSelfReported
+    JsName:          ENDiagnosisReportTypeSelfReported
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ENDiagnosisReportTypeUnknown
+    JsName:          ENDiagnosisReportTypeUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENErrorCode
+    JsName:          ENErrorCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENErrorCodeUnknown: '1'
+      - ENErrorCodeBadParameter: '2'
+      - ENErrorCodeNotEntitled: '3'
+      - ENErrorCodeNotAuthorized: '4'
+      - ENErrorCodeUnsupported: '5'
+      - ENErrorCodeInvalidated: '6'
+      - ENErrorCodeBluetoothOff: '7'
+      - ENErrorCodeInsufficientStorage: '8'
+      - ENErrorCodeNotEnabled: '9'
+      - ENErrorCodeAPIMisuse: '10'
+      - ENErrorCodeInternal: '11'
+      - ENErrorCodeInsufficientMemory: '12'
+      - ENErrorCodeRateLimited: '13'
+      - ENErrorCodeRestricted: '14'
+      - ENErrorCodeBadFormat: '15'
+      - ENErrorCodeDataInaccessible: '16'
+      - ENErrorCodeTravelStatusNotAvailable: '17'
+    SwiftNameFields: 
+      - Unknown:         '1'
+      - BadParameter:    '2'
+      - NotEntitled:     '3'
+      - NotAuthorized:   '4'
+      - Unsupported:     '5'
+      - Invalidated:     '6'
+      - BluetoothOff:    '7'
+      - InsufficientStorage: '8'
+      - NotEnabled:      '9'
+      - APIMisuse:       '10'
+      - Internal:        '11'
+      - InsufficientMemory: '12'
+      - RateLimited:     '13'
+      - Restricted:      '14'
+      - BadFormat:       '15'
+      - DataInaccessible: '16'
+      - TravelStatusNotAvailable: '17'
+  - Name:            ENErrorCodeAPIMisuse
+    JsName:          ENErrorCodeAPIMisuse
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '10'
+  - Name:            ENErrorCodeBadFormat
+    JsName:          ENErrorCodeBadFormat
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '15'
+  - Name:            ENErrorCodeBadParameter
+    JsName:          ENErrorCodeBadParameter
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENErrorCodeBluetoothOff
+    JsName:          ENErrorCodeBluetoothOff
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            ENErrorCodeDataInaccessible
+    JsName:          ENErrorCodeDataInaccessible
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '16'
+  - Name:            ENErrorCodeInsufficientMemory
+    JsName:          ENErrorCodeInsufficientMemory
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '12'
+  - Name:            ENErrorCodeInsufficientStorage
+    JsName:          ENErrorCodeInsufficientStorage
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            ENErrorCodeInternal
+    JsName:          ENErrorCodeInternal
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '11'
+  - Name:            ENErrorCodeInvalidated
+    JsName:          ENErrorCodeInvalidated
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            ENErrorCodeNotAuthorized
+    JsName:          ENErrorCodeNotAuthorized
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ENErrorCodeNotEnabled
+    JsName:          ENErrorCodeNotEnabled
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '9'
+  - Name:            ENErrorCodeNotEntitled
+    JsName:          ENErrorCodeNotEntitled
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ENErrorCodeRateLimited
+    JsName:          ENErrorCodeRateLimited
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '13'
+  - Name:            ENErrorCodeRestricted
+    JsName:          ENErrorCodeRestricted
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '14'
+  - Name:            ENErrorCodeTravelStatusNotAvailable
+    JsName:          ENErrorCodeTravelStatusNotAvailable
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '17'
+  - Name:            ENErrorCodeUnknown
+    JsName:          ENErrorCodeUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENErrorCodeUnsupported
+    JsName:          ENErrorCodeUnsupported
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ENErrorDomain
+    JsName:          ENErrorDomain
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            ENExposureConfiguration
+    JsName:          ENExposureConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            attenuationDurationThresholds
+        JsName:          attenuationDurationThresholds
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationDurationThresholds
+          JsName:          attenuationDurationThresholds
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setAttenuationDurationThresholds:'
+          JsName:          setAttenuationDurationThresholds
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            attenuationLevelValues
+        JsName:          attenuationLevelValues
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationLevelValues
+          JsName:          attenuationLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setAttenuationLevelValues:'
+          JsName:          setAttenuationLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            attenuationWeight
+        JsName:          attenuationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationWeight
+          JsName:          attenuationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setAttenuationWeight:'
+          JsName:          setAttenuationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            daysSinceLastExposureLevelValues
+        JsName:          daysSinceLastExposureLevelValues
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daysSinceLastExposureLevelValues
+          JsName:          daysSinceLastExposureLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setDaysSinceLastExposureLevelValues:'
+          JsName:          setDaysSinceLastExposureLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            daysSinceLastExposureThreshold
+        JsName:          daysSinceLastExposureThreshold
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daysSinceLastExposureThreshold
+          JsName:          daysSinceLastExposureThreshold
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+        Setter:          
+          Name:            'setDaysSinceLastExposureThreshold:'
+          JsName:          setDaysSinceLastExposureThreshold
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Int
+      - Name:            daysSinceLastExposureWeight
+        JsName:          daysSinceLastExposureWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daysSinceLastExposureWeight
+          JsName:          daysSinceLastExposureWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setDaysSinceLastExposureWeight:'
+          JsName:          setDaysSinceLastExposureWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            durationLevelValues
+        JsName:          durationLevelValues
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            durationLevelValues
+          JsName:          durationLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setDurationLevelValues:'
+          JsName:          setDurationLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            durationWeight
+        JsName:          durationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            durationWeight
+          JsName:          durationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setDurationWeight:'
+          JsName:          setDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            immediateDurationWeight
+        JsName:          immediateDurationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            immediateDurationWeight
+          JsName:          immediateDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setImmediateDurationWeight:'
+          JsName:          setImmediateDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            infectiousnessForDaysSinceOnsetOfSymptoms
+        JsName:          infectiousnessForDaysSinceOnsetOfSymptoms
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            infectiousnessForDaysSinceOnsetOfSymptoms
+          JsName:          infectiousnessForDaysSinceOnsetOfSymptoms
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setInfectiousnessForDaysSinceOnsetOfSymptoms:'
+          JsName:          setInfectiousnessForDaysSinceOnsetOfSymptoms
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSDictionary
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            infectiousnessHighWeight
+        JsName:          infectiousnessHighWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            infectiousnessHighWeight
+          JsName:          infectiousnessHighWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setInfectiousnessHighWeight:'
+          JsName:          setInfectiousnessHighWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            infectiousnessStandardWeight
+        JsName:          infectiousnessStandardWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            infectiousnessStandardWeight
+          JsName:          infectiousnessStandardWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setInfectiousnessStandardWeight:'
+          JsName:          setInfectiousnessStandardWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            mediumDurationWeight
+        JsName:          mediumDurationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            mediumDurationWeight
+          JsName:          mediumDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setMediumDurationWeight:'
+          JsName:          setMediumDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metadata
+          JsName:          metadata
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDictionary
+              WithProtocols:   []
+        Setter:          
+          Name:            'setMetadata:'
+          JsName:          setMetadata
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSDictionary
+              WithProtocols:   []
+      - Name:            minimumRiskScore
+        JsName:          minimumRiskScore
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumRiskScore
+          JsName:          minimumRiskScore
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+        Setter:          
+          Name:            'setMinimumRiskScore:'
+          JsName:          setMinimumRiskScore
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UChar
+      - Name:            minimumRiskScoreFullRange
+        JsName:          minimumRiskScoreFullRange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumRiskScoreFullRange
+          JsName:          minimumRiskScoreFullRange
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setMinimumRiskScoreFullRange:'
+          JsName:          setMinimumRiskScoreFullRange
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            nearDurationWeight
+        JsName:          nearDurationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            nearDurationWeight
+          JsName:          nearDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setNearDurationWeight:'
+          JsName:          setNearDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            otherDurationWeight
+        JsName:          otherDurationWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            otherDurationWeight
+          JsName:          otherDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setOtherDurationWeight:'
+          JsName:          setOtherDurationWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            reportTypeConfirmedClinicalDiagnosisWeight
+        JsName:          reportTypeConfirmedClinicalDiagnosisWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportTypeConfirmedClinicalDiagnosisWeight
+          JsName:          reportTypeConfirmedClinicalDiagnosisWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setReportTypeConfirmedClinicalDiagnosisWeight:'
+          JsName:          setReportTypeConfirmedClinicalDiagnosisWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            reportTypeConfirmedTestWeight
+        JsName:          reportTypeConfirmedTestWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportTypeConfirmedTestWeight
+          JsName:          reportTypeConfirmedTestWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setReportTypeConfirmedTestWeight:'
+          JsName:          setReportTypeConfirmedTestWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            reportTypeNoneMap
+        JsName:          reportTypeNoneMap
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportTypeNoneMap
+          JsName:          reportTypeNoneMap
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENDiagnosisReportType
+        Setter:          
+          Name:            'setReportTypeNoneMap:'
+          JsName:          setReportTypeNoneMap
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            ENDiagnosisReportType
+      - Name:            reportTypeRecursiveWeight
+        JsName:          reportTypeRecursiveWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportTypeRecursiveWeight
+          JsName:          reportTypeRecursiveWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setReportTypeRecursiveWeight:'
+          JsName:          setReportTypeRecursiveWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            reportTypeSelfReportedWeight
+        JsName:          reportTypeSelfReportedWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            reportTypeSelfReportedWeight
+          JsName:          reportTypeSelfReportedWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setReportTypeSelfReportedWeight:'
+          JsName:          setReportTypeSelfReportedWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+      - Name:            transmissionRiskLevelValues
+        JsName:          transmissionRiskLevelValues
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transmissionRiskLevelValues
+          JsName:          transmissionRiskLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+        Setter:          
+          Name:            'setTransmissionRiskLevelValues:'
+          JsName:          setTransmissionRiskLevelValues
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            transmissionRiskWeight
+        JsName:          transmissionRiskWeight
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transmissionRiskWeight
+          JsName:          transmissionRiskWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+        Setter:          
+          Name:            'setTransmissionRiskWeight:'
+          JsName:          setTransmissionRiskWeight
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Double
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENExposureDaySummary
+    JsName:          ENExposureDaySummary
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            confirmedClinicalDiagnosisSummary
+        JsName:          confirmedClinicalDiagnosisSummary
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            confirmedClinicalDiagnosisSummary
+          JsName:          confirmedClinicalDiagnosisSummary
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            ENExposureSummaryItem
+              WithProtocols:   []
+      - Name:            confirmedTestSummary
+        JsName:          confirmedTestSummary
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            confirmedTestSummary
+          JsName:          confirmedTestSummary
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            ENExposureSummaryItem
+              WithProtocols:   []
+      - Name:            date
+        JsName:          date
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            date
+          JsName:          date
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+      - Name:            daySummary
+        JsName:          daySummary
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daySummary
+          JsName:          daySummary
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            ENExposureSummaryItem
+              WithProtocols:   []
+      - Name:            recursiveSummary
+        JsName:          recursiveSummary
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            recursiveSummary
+          JsName:          recursiveSummary
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            ENExposureSummaryItem
+              WithProtocols:   []
+      - Name:            selfReportedSummary
+        JsName:          selfReportedSummary
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            selfReportedSummary
+          JsName:          selfReportedSummary
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            ENExposureSummaryItem
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENExposureDetectionSummary
+    JsName:          ENExposureDetectionSummary
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            attenuationDurations
+        JsName:          attenuationDurations
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationDurations
+          JsName:          attenuationDurations
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            daysSinceLastExposure
+        JsName:          daysSinceLastExposure
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daysSinceLastExposure
+          JsName:          daysSinceLastExposure
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+      - Name:            daySummaries
+        JsName:          daySummaries
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daySummaries
+          JsName:          daySummaries
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            ENExposureDaySummary
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            matchedKeyCount
+        JsName:          matchedKeyCount
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            matchedKeyCount
+          JsName:          matchedKeyCount
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            ULongLong
+      - Name:            maximumRiskScore
+        JsName:          maximumRiskScore
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumRiskScore
+          JsName:          maximumRiskScore
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+      - Name:            maximumRiskScoreFullRange
+        JsName:          maximumRiskScoreFullRange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumRiskScoreFullRange
+          JsName:          maximumRiskScoreFullRange
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metadata
+          JsName:          metadata
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDictionary
+              WithProtocols:   []
+      - Name:            riskScoreSumFullRange
+        JsName:          riskScoreSumFullRange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            riskScoreSumFullRange
+          JsName:          riskScoreSumFullRange
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENExposureInfo
+    JsName:          ENExposureInfo
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            attenuationDurations
+        JsName:          attenuationDurations
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationDurations
+          JsName:          attenuationDurations
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            NSNumber
+                  WithProtocols:   []
+              WithProtocols:   []
+      - Name:            attenuationValue
+        JsName:          attenuationValue
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            attenuationValue
+          JsName:          attenuationValue
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+      - Name:            date
+        JsName:          date
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            date
+          JsName:          date
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+      - Name:            daysSinceOnsetOfSymptoms
+        JsName:          daysSinceOnsetOfSymptoms
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            daysSinceOnsetOfSymptoms
+          JsName:          daysSinceOnsetOfSymptoms
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+      - Name:            diagnosisReportType
+        JsName:          diagnosisReportType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            diagnosisReportType
+          JsName:          diagnosisReportType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          IntroducedIn:    13.7
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENDiagnosisReportType
+      - Name:            duration
+        JsName:          duration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            duration
+          JsName:          duration
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            metadata
+        JsName:          metadata
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            metadata
+          JsName:          metadata
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDictionary
+              WithProtocols:   []
+      - Name:            totalRiskScore
+        JsName:          totalRiskScore
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalRiskScore
+          JsName:          totalRiskScore
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+      - Name:            totalRiskScoreFullRange
+        JsName:          totalRiskScoreFullRange
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            totalRiskScoreFullRange
+          JsName:          totalRiskScoreFullRange
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            transmissionRiskLevel
+        JsName:          transmissionRiskLevel
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transmissionRiskLevel
+          JsName:          transmissionRiskLevel
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENExposureSummaryItem
+    JsName:          ENExposureSummaryItem
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            maximumScore
+        JsName:          maximumScore
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            maximumScore
+          JsName:          maximumScore
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            scoreSum
+        JsName:          scoreSum
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            scoreSum
+          JsName:          scoreSum
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+      - Name:            weightedDurationSum
+        JsName:          weightedDurationSum
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            weightedDurationSum
+          JsName:          weightedDurationSum
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Double
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENExposureWindow
+    JsName:          ENExposureWindow
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            calibrationConfidence
+        JsName:          calibrationConfidence
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            calibrationConfidence
+          JsName:          calibrationConfidence
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENCalibrationConfidence
+      - Name:            date
+        JsName:          date
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            date
+          JsName:          date
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSDate
+              WithProtocols:   []
+      - Name:            diagnosisReportType
+        JsName:          diagnosisReportType
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            diagnosisReportType
+          JsName:          diagnosisReportType
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENDiagnosisReportType
+      - Name:            infectiousness
+        JsName:          infectiousness
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            infectiousness
+          JsName:          infectiousness
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENInfectiousness
+      - Name:            scanInstances
+        JsName:          scanInstances
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            scanInstances
+          JsName:          scanInstances
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSArray
+              TypeParameters:  
+                - Type:            Interface
+                  Name:            ENScanInstance
+                  WithProtocols:   []
+              WithProtocols:   []
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENInfectiousness
+    JsName:          ENInfectiousness
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENInfectiousnessNone: '0'
+      - ENInfectiousnessStandard: '1'
+      - ENInfectiousnessHigh: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Standard:        '1'
+      - High:            '2'
+  - Name:            ENInfectiousnessHigh
+    JsName:          ENInfectiousnessHigh
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENInfectiousnessNone
+    JsName:          ENInfectiousnessNone
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENInfectiousnessStandard
+    JsName:          ENInfectiousnessStandard
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENManager
+    JsName:          ENManager
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'activateWithCompletionHandler:'
+        JsName:          activateWithCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'detectExposuresWithConfiguration:completionHandler:'
+        JsName:          detectExposuresWithConfigurationCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSProgress
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            ENExposureConfiguration
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            ENExposureDetectionSummary
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'detectExposuresWithConfiguration:diagnosisKeyURLs:completionHandler:'
+        JsName:          detectExposuresWithConfigurationDiagnosisKeyURLsCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSProgress
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            ENExposureConfiguration
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSArray
+            TypeParameters:  
+              - Type:            Interface
+                Name:            NSURL
+                WithProtocols:   []
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            ENExposureDetectionSummary
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'getDiagnosisKeysWithCompletionHandler:'
+        JsName:          getDiagnosisKeysWithCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    Name:            ENTemporaryExposureKey
+                    WithProtocols:   []
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'getExposureInfoFromSummary:userExplanation:completionHandler:'
+        JsName:          getExposureInfoFromSummaryUserExplanationCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.5
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSProgress
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            ENExposureDetectionSummary
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSString
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    Name:            ENExposureInfo
+                    WithProtocols:   []
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'getExposureWindowsFromSummary:completionHandler:'
+        JsName:          getExposureWindowsFromSummaryCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NSProgress
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            ENExposureDetectionSummary
+            WithProtocols:   []
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    Name:            ENExposureWindow
+                    WithProtocols:   []
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'getTestDiagnosisKeysWithCompletionHandler:'
+        JsName:          getTestDiagnosisKeysWithCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSArray
+                TypeParameters:  
+                  - Type:            Interface
+                    Name:            ENTemporaryExposureKey
+                    WithProtocols:   []
+                WithProtocols:   []
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            'getUserTraveledWithCompletionHandler:'
+        JsName:          getUserTraveledWithCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        IntroducedIn:    13.7
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Bool
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+      - Name:            invalidate
+        JsName:          invalidate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'setExposureNotificationEnabled:completionHandler:'
+        JsName:          setExposureNotificationEnabledCompletionHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Bool
+          - Type:            Block
+            Signature:       
+              - Type:            Void
+              - Type:            Interface
+                Name:            NSError
+                WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            dispatchQueue
+        JsName:          dispatchQueue
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            dispatchQueue
+          JsName:          dispatchQueue
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+        Setter:          
+          Name:            'setDispatchQueue:'
+          JsName:          setDispatchQueue
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSObject
+              WithProtocols:   
+                - OS_dispatch_queue
+      - Name:            exposureNotificationEnabled
+        JsName:          exposureNotificationEnabled
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            exposureNotificationEnabled
+          JsName:          exposureNotificationEnabled
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            exposureNotificationStatus
+        JsName:          exposureNotificationStatus
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            exposureNotificationStatus
+          JsName:          exposureNotificationStatus
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENStatus
+      - Name:            invalidationHandler
+        JsName:          invalidationHandler
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            invalidationHandler
+          JsName:          invalidationHandler
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+        Setter:          
+          Name:            'setInvalidationHandler:'
+          JsName:          setInvalidationHandler
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Block
+              Signature:       
+                - Type:            Void
+    StaticProperties: 
+      - Name:            authorizationStatus
+        JsName:          authorizationStatus
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+        Module:          
+          FullName:        ExposureNotification.ENManager
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            authorizationStatus
+          JsName:          authorizationStatus
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+          Module:          
+            FullName:        ExposureNotification.ENManager
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            ENAuthorizationStatus
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENRiskLevelMax
+    JsName:          ENRiskLevelMax
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            ENRiskLevelMin
+    JsName:          ENRiskLevelMin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENRiskLevelValueMax
+    JsName:          ENRiskLevelValueMax
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            ENRiskLevelValueMin
+    JsName:          ENRiskLevelValueMin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENRiskScoreMax
+    JsName:          ENRiskScoreMax
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '255'
+  - Name:            ENRiskScoreMin
+    JsName:          ENRiskScoreMin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENRiskWeightDefault
+    JsName:          ENRiskWeightDefault
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENRiskWeightDefaultV2
+    JsName:          ENRiskWeightDefaultV2
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '100'
+  - Name:            ENRiskWeightMax
+    JsName:          ENRiskWeightMax
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '100'
+  - Name:            ENRiskWeightMaxV2
+    JsName:          ENRiskWeightMaxV2
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '250'
+  - Name:            ENRiskWeightMin
+    JsName:          ENRiskWeightMin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENScanInstance
+    JsName:          ENScanInstance
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.7
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            minimumAttenuation
+        JsName:          minimumAttenuation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            minimumAttenuation
+          JsName:          minimumAttenuation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+      - Name:            secondsSinceLastScan
+        JsName:          secondsSinceLastScan
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            secondsSinceLastScan
+          JsName:          secondsSinceLastScan
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Int
+      - Name:            typicalAttenuation
+        JsName:          typicalAttenuation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            typicalAttenuation
+          JsName:          typicalAttenuation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            ENStatus
+    JsName:          ENStatus
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - ENStatusUnknown: '0'
+      - ENStatusActive:  '1'
+      - ENStatusDisabled: '2'
+      - ENStatusBluetoothOff: '3'
+      - ENStatusRestricted: '4'
+      - ENStatusPaused:  '5'
+      - ENStatusUnauthorized: '6'
+    SwiftNameFields: 
+      - Unknown:         '0'
+      - Active:          '1'
+      - Disabled:        '2'
+      - BluetoothOff:    '3'
+      - Restricted:      '4'
+      - Paused:          '5'
+      - Unauthorized:    '6'
+  - Name:            ENStatusActive
+    JsName:          ENStatusActive
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            ENStatusBluetoothOff
+    JsName:          ENStatusBluetoothOff
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            ENStatusDisabled
+    JsName:          ENStatusDisabled
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            ENStatusPaused
+    JsName:          ENStatusPaused
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            ENStatusRestricted
+    JsName:          ENStatusRestricted
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            ENStatusUnauthorized
+    JsName:          ENStatusUnauthorized
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            ENStatusUnknown
+    JsName:          ENStatusUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENManager.h'
+    Module:          
+      FullName:        ExposureNotification.ENManager
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            ENTemporaryExposureKey
+    JsName:          ENTemporaryExposureKey
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+    Module:          
+      FullName:        ExposureNotification.ENCommon
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    IntroducedIn:    13.5
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            keyData
+        JsName:          keyData
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            keyData
+          JsName:          keyData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Interface
+              Name:            NSData
+              WithProtocols:   []
+        Setter:          
+          Name:            'setKeyData:'
+          JsName:          setKeyData
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Interface
+              Name:            NSData
+              WithProtocols:   []
+      - Name:            rollingPeriod
+        JsName:          rollingPeriod
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rollingPeriod
+          JsName:          rollingPeriod
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setRollingPeriod:'
+          JsName:          setRollingPeriod
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            rollingStartNumber
+        JsName:          rollingStartNumber
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            rollingStartNumber
+          JsName:          rollingStartNumber
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UInt
+        Setter:          
+          Name:            'setRollingStartNumber:'
+          JsName:          setRollingStartNumber
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UInt
+      - Name:            transmissionRiskLevel
+        JsName:          transmissionRiskLevel
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+        Module:          
+          FullName:        ExposureNotification.ENCommon
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            transmissionRiskLevel
+          JsName:          transmissionRiskLevel
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            UChar
+        Setter:          
+          Name:            'setTransmissionRiskLevel:'
+          JsName:          setTransmissionRiskLevel
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/ExposureNotification.framework/Headers/ENCommon.h'
+          Module:          
+            FullName:        ExposureNotification.ENCommon
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            UChar
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+...

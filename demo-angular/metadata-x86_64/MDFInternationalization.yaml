@@ -1,0 +1,151 @@
+---
+Module:          
+  FullName:        MDFInternationalization
+  IsPartOfFramework: true
+  IsSystemModule:  false
+  Libraries:       
+    - Library:         MDFInternationalization
+      IsFramework:     true
+Items:           
+  - Name:            MDFInsetsFlippedHorizontally
+    JsName:          MDFInsetsFlippedHorizontally
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFRTL.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFRTL
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          UIKit.UIGeometry
+        Name:            UIEdgeInsets
+      - Type:            Struct
+        Module:          UIKit.UIGeometry
+        Name:            UIEdgeInsets
+  - Name:            MDFInsetsMakeWithLayoutDirection
+    JsName:          MDFInsetsMakeWithLayoutDirection
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFRTL.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFRTL
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          UIKit.UIGeometry
+        Name:            UIEdgeInsets
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+      - Type:            Double
+      - Type:            Enum
+        Name:            UIUserInterfaceLayoutDirection
+  - Name:            MDFInternationalizationVersionNumber
+    JsName:          MDFInternationalizationVersionNumber
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFInternationalization.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFInternationalization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            MDFInternationalizationVersionNumber
+    JsName:          MDFInternationalizationVersionNumberVar
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFInternationalization-umbrella.h'
+    Module:          
+      FullName:        MDFInternationalization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MDFInternationalization
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Double
+  - Name:            MDFInternationalizationVersionString
+    JsName:          MDFInternationalizationVersionString
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFInternationalization.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFInternationalization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+  - Name:            MDFInternationalizationVersionString
+    JsName:          MDFInternationalizationVersionStringVar
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFInternationalization-umbrella.h'
+    Module:          
+      FullName:        MDFInternationalization
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       
+        - Library:         MDFInternationalization
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            IncompleteArray
+      ArrayType:       
+        Type:            UChar
+  - Name:            MDFLeadingMarginAutoresizingMaskForLayoutDirection
+    JsName:          MDFLeadingMarginAutoresizingMaskForLayoutDirection
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFRTL.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFRTL
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            UIViewAutoresizing
+      - Type:            Enum
+        Name:            UIUserInterfaceLayoutDirection
+  - Name:            MDFRectFlippedHorizontally
+    JsName:          MDFRectFlippedHorizontally
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFRTL.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFRTL
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Struct
+        Module:          CoreGraphics.CGGeometry
+        Name:            CGRect
+      - Type:            Struct
+        Module:          CoreGraphics.CGGeometry
+        Name:            CGRect
+      - Type:            Double
+  - Name:            MDFTrailingMarginAutoresizingMaskForLayoutDirection
+    JsName:          MDFTrailingMarginAutoresizingMaskForLayoutDirection
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/build/Debug-iphonesimulator/MDFInternationalization/MDFInternationalization.framework/Headers/MDFRTL.h'
+    Module:          
+      FullName:        MDFInternationalization.MDFRTL
+      IsPartOfFramework: true
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Function
+    Signature:       
+      - Type:            Enum
+        Name:            UIViewAutoresizing
+      - Type:            Enum
+        Name:            UIUserInterfaceLayoutDirection
+...

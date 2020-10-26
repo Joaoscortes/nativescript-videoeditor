@@ -1,0 +1,109 @@
+---
+Module:          
+  FullName:        NativeScriptEmbedder
+  IsPartOfFramework: false
+  IsSystemModule:  false
+  Libraries:       []
+Items:           
+  - Name:            NativeScriptEmbedder
+    JsName:          NativeScriptEmbedder
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+    Module:          
+      FullName:        NativeScriptEmbedder
+      IsPartOfFramework: false
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            'setDelegate:'
+        JsName:          setDelegate
+        Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+        Module:          
+          FullName:        NativeScriptEmbedder
+          IsPartOfFramework: false
+          IsSystemModule:  false
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Id
+            WithProtocols:   
+              - NativeScriptEmbedderDelegate
+    StaticMethods:   
+      - Name:            sharedInstance
+        JsName:          sharedInstance
+        Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+        Module:          
+          FullName:        NativeScriptEmbedder
+          IsPartOfFramework: false
+          IsSystemModule:  false
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Interface
+            Name:            NativeScriptEmbedder
+            WithProtocols:   []
+    InstanceProperties: 
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+        Module:          
+          FullName:        NativeScriptEmbedder
+          IsPartOfFramework: false
+          IsSystemModule:  false
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+          Module:          
+            FullName:        NativeScriptEmbedder
+            IsPartOfFramework: false
+            IsSystemModule:  false
+            Libraries:       []
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - NativeScriptEmbedderDelegate
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            NativeScriptEmbedderDelegate
+    JsName:          NativeScriptEmbedderDelegate
+    Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+    Module:          
+      FullName:        NativeScriptEmbedder
+      IsPartOfFramework: false
+      IsSystemModule:  false
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'presentNativeScriptApp:'
+        JsName:          presentNativeScriptApp
+        Filename:        '/Users/joaocortes/Documents/Projetos/Testes/nativescript-videoeditors/demo-angular/platforms/ios/../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h'
+        Module:          
+          FullName:        NativeScriptEmbedder
+          IsPartOfFramework: false
+          IsSystemModule:  false
+          Libraries:       []
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Id
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            UIViewController
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       []
+...

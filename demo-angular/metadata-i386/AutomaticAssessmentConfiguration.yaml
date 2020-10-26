@@ -1,0 +1,782 @@
+---
+Module:          
+  FullName:        AutomaticAssessmentConfiguration
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         AutomaticAssessmentConfiguration
+      IsFramework:     true
+Items:           
+  - Name:            AEAssessmentConfiguration
+    JsName:          AEAssessmentConfiguration
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    IntroducedIn:    13.4
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            allowsAccessibilitySpeech
+        JsName:          allowsAccessibilitySpeech
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsAccessibilitySpeech
+          JsName:          allowsAccessibilitySpeech
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsAccessibilitySpeech:'
+          JsName:          setAllowsAccessibilitySpeech
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsActivityContinuation
+        JsName:          allowsActivityContinuation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsActivityContinuation
+          JsName:          allowsActivityContinuation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsActivityContinuation:'
+          JsName:          setAllowsActivityContinuation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsContinuousPathKeyboard
+        JsName:          allowsContinuousPathKeyboard
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsContinuousPathKeyboard
+          JsName:          allowsContinuousPathKeyboard
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsContinuousPathKeyboard:'
+          JsName:          setAllowsContinuousPathKeyboard
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsDictation
+        JsName:          allowsDictation
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsDictation
+          JsName:          allowsDictation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsDictation:'
+          JsName:          setAllowsDictation
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsKeyboardShortcuts
+        JsName:          allowsKeyboardShortcuts
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsKeyboardShortcuts
+          JsName:          allowsKeyboardShortcuts
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsKeyboardShortcuts:'
+          JsName:          setAllowsKeyboardShortcuts
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsPasswordAutoFill
+        JsName:          allowsPasswordAutoFill
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsPasswordAutoFill
+          JsName:          allowsPasswordAutoFill
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsPasswordAutoFill:'
+          JsName:          setAllowsPasswordAutoFill
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsPredictiveKeyboard
+        JsName:          allowsPredictiveKeyboard
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsPredictiveKeyboard
+          JsName:          allowsPredictiveKeyboard
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsPredictiveKeyboard:'
+          JsName:          setAllowsPredictiveKeyboard
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            allowsSpellCheck
+        JsName:          allowsSpellCheck
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            allowsSpellCheck
+          JsName:          allowsSpellCheck
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+        Setter:          
+          Name:            'setAllowsSpellCheck:'
+          JsName:          setAllowsSpellCheck
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Bool
+      - Name:            autocorrectMode
+        JsName:          autocorrectMode
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        IntroducedIn:    14.0
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            autocorrectMode
+          JsName:          autocorrectMode
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Enum
+              Name:            AEAutocorrectMode
+        Setter:          
+          Name:            'setAutocorrectMode:'
+          JsName:          setAutocorrectMode
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          IntroducedIn:    14.0
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Enum
+              Name:            AEAutocorrectMode
+    StaticProperties: []
+    Protocols:       
+      - NSCopying
+    Base:            NSObject
+  - Name:            AEAssessmentErrorCode
+    JsName:          AEAssessmentErrorCode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEErrors.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - AEAssessmentErrorUnknown: '1'
+    SwiftNameFields: 
+      - Unknown:         '1'
+  - Name:            AEAssessmentErrorDomain
+    JsName:          AEAssessmentErrorDomain
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEErrors.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    IntroducedIn:    13.4
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Var
+    Signature:       
+      Type:            Interface
+      Name:            NSString
+      WithProtocols:   []
+  - Name:            AEAssessmentErrorUnknown
+    JsName:          AEAssessmentErrorUnknown
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEErrors.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            AEAssessmentSession
+    JsName:          AEAssessmentSession
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    IntroducedIn:    13.4
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Interface
+    InstanceMethods: 
+      - Name:            begin
+        JsName:          begin
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            end
+        JsName:          end
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+      - Name:            'initWithConfiguration:'
+        JsName:          initWithConfiguration
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable, MethodIsInitializer ]
+        Type:            Method
+        Signature:       
+          - Type:            Instancetype
+          - Type:            Interface
+            Name:            AEAssessmentConfiguration
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: 
+      - Name:            active
+        JsName:          active
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            isActive
+          JsName:          isActive
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Bool
+      - Name:            delegate
+        JsName:          delegate
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable ]
+        Type:            Property
+        Getter:          
+          Name:            delegate
+          JsName:          delegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Id
+              WithProtocols:   
+                - AEAssessmentSessionDelegate
+        Setter:          
+          Name:            'setDelegate:'
+          JsName:          setDelegate
+          Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSession.h'
+          Module:          
+            FullName:        AutomaticAssessmentConfiguration
+            IsPartOfFramework: true
+            IsSystemModule:  true
+            Libraries:       
+              - Library:         AutomaticAssessmentConfiguration
+                IsFramework:     true
+          Flags:           [ IsIosAppExtensionAvailable ]
+          Type:            Method
+          Signature:       
+            - Type:            Void
+            - Type:            Id
+              WithProtocols:   
+                - AEAssessmentSessionDelegate
+    StaticProperties: []
+    Protocols:       []
+    Base:            NSObject
+  - Name:            AEAssessmentSessionDelegate
+    JsName:          AEAssessmentSessionDelegate
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSessionDelegate.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    IntroducedIn:    13.4
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Protocol
+    InstanceMethods: 
+      - Name:            'assessmentSessionDidBegin:'
+        JsName:          assessmentSessionDidBegin
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSessionDelegate.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            AEAssessmentSession
+            WithProtocols:   []
+      - Name:            'assessmentSessionDidEnd:'
+        JsName:          assessmentSessionDidEnd
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSessionDelegate.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            AEAssessmentSession
+            WithProtocols:   []
+      - Name:            'assessmentSession:failedToBeginWithError:'
+        JsName:          assessmentSessionFailedToBeginWithError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSessionDelegate.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            AEAssessmentSession
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSError
+            WithProtocols:   []
+      - Name:            'assessmentSession:wasInterruptedWithError:'
+        JsName:          assessmentSessionWasInterruptedWithError
+        Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentSessionDelegate.h'
+        Module:          
+          FullName:        AutomaticAssessmentConfiguration
+          IsPartOfFramework: true
+          IsSystemModule:  true
+          Libraries:       
+            - Library:         AutomaticAssessmentConfiguration
+              IsFramework:     true
+        Flags:           [ IsIosAppExtensionAvailable, MemberIsOptional ]
+        Type:            Method
+        Signature:       
+          - Type:            Void
+          - Type:            Interface
+            Name:            AEAssessmentSession
+            WithProtocols:   []
+          - Type:            Interface
+            Name:            NSError
+            WithProtocols:   []
+    StaticMethods:   []
+    InstanceProperties: []
+    StaticProperties: []
+    Protocols:       
+      - NSObjectProtocol
+  - Name:            AEAutocorrectMode
+    JsName:          AEAutocorrectMode
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            Enum
+    FullNameFields:  
+      - AEAutocorrectModeNone: '0'
+      - AEAutocorrectModeSpelling: '1'
+      - AEAutocorrectModePunctuation: '2'
+    SwiftNameFields: 
+      - None:            '0'
+      - Spelling:        '1'
+      - Punctuation:     '2'
+  - Name:            AEAutocorrectModeNone
+    JsName:          AEAutocorrectModeNone
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            AEAutocorrectModePunctuation
+    JsName:          AEAutocorrectModePunctuation
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            AEAutocorrectModeSpelling
+    JsName:          AEAutocorrectModeSpelling
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Headers/AEAssessmentConfiguration.h'
+    Module:          
+      FullName:        AutomaticAssessmentConfiguration
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       
+        - Library:         AutomaticAssessmentConfiguration
+          IsFramework:     true
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+...

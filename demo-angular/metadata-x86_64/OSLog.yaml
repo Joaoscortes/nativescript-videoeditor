@@ -1,0 +1,296 @@
+---
+Module:          
+  FullName:        OSLog
+  IsPartOfFramework: true
+  IsSystemModule:  true
+  Libraries:       
+    - Library:         OSLog
+      IsFramework:     true
+Items:           
+  - Name:            OSLogEntryLogLevelDebug
+    JsName:          OSLogEntryLogLevelDebug
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OSLogEntryLogLevelError
+    JsName:          OSLogEntryLogLevelError
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            OSLogEntryLogLevelFault
+    JsName:          OSLogEntryLogLevelFault
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            OSLogEntryLogLevelInfo
+    JsName:          OSLogEntryLogLevelInfo
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OSLogEntryLogLevelNotice
+    JsName:          OSLogEntryLogLevelNotice
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            OSLogEntryLogLevelUndefined
+    JsName:          OSLogEntryLogLevelUndefined
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntryLog.h'
+    Module:          
+      FullName:        OSLog.EntryLog
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OSLogEntrySignpostTypeEvent
+    JsName:          OSLogEntrySignpostTypeEvent
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntrySignpost.h'
+    Module:          
+      FullName:        OSLog.EntrySignpost
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            OSLogEntrySignpostTypeIntervalBegin
+    JsName:          OSLogEntrySignpostTypeIntervalBegin
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntrySignpost.h'
+    Module:          
+      FullName:        OSLog.EntrySignpost
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OSLogEntrySignpostTypeIntervalEnd
+    JsName:          OSLogEntrySignpostTypeIntervalEnd
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntrySignpost.h'
+    Module:          
+      FullName:        OSLog.EntrySignpost
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OSLogEntrySignpostTypeUndefined
+    JsName:          OSLogEntrySignpostTypeUndefined
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/EntrySignpost.h'
+    Module:          
+      FullName:        OSLog.EntrySignpost
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OSLogEntryStoreCategoryLongTerm1
+    JsName:          OSLogEntryStoreCategoryLongTerm1
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            OSLogEntryStoreCategoryLongTerm14
+    JsName:          OSLogEntryStoreCategoryLongTerm14
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '7'
+  - Name:            OSLogEntryStoreCategoryLongTerm3
+    JsName:          OSLogEntryStoreCategoryLongTerm3
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            OSLogEntryStoreCategoryLongTerm30
+    JsName:          OSLogEntryStoreCategoryLongTerm30
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '8'
+  - Name:            OSLogEntryStoreCategoryLongTerm7
+    JsName:          OSLogEntryStoreCategoryLongTerm7
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '6'
+  - Name:            OSLogEntryStoreCategoryLongTermAuto
+    JsName:          OSLogEntryStoreCategoryLongTermAuto
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            OSLogEntryStoreCategoryMetadata
+    JsName:          OSLogEntryStoreCategoryMetadata
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OSLogEntryStoreCategoryShortTerm
+    JsName:          OSLogEntryStoreCategoryShortTerm
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OSLogEntryStoreCategoryUndefined
+    JsName:          OSLogEntryStoreCategoryUndefined
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Entry.h'
+    Module:          
+      FullName:        OSLog.Entry
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+  - Name:            OSLogEnumeratorReverse
+    JsName:          OSLogEnumeratorReverse
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/Enumerator.h'
+    Module:          
+      FullName:        OSLog.Enumerator
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OSLogMessageComponentArgumentCategoryData
+    JsName:          OSLogMessageComponentArgumentCategoryData
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '1'
+  - Name:            OSLogMessageComponentArgumentCategoryDouble
+    JsName:          OSLogMessageComponentArgumentCategoryDouble
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '2'
+  - Name:            OSLogMessageComponentArgumentCategoryInt64
+    JsName:          OSLogMessageComponentArgumentCategoryInt64
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '3'
+  - Name:            OSLogMessageComponentArgumentCategoryString
+    JsName:          OSLogMessageComponentArgumentCategoryString
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '4'
+  - Name:            OSLogMessageComponentArgumentCategoryUInt64
+    JsName:          OSLogMessageComponentArgumentCategoryUInt64
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '5'
+  - Name:            OSLogMessageComponentArgumentCategoryUndefined
+    JsName:          OSLogMessageComponentArgumentCategoryUndefined
+    Filename:        '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OSLog.framework/Headers/MessageComponent.h'
+    Module:          
+      FullName:        OSLog.MessageComponent
+      IsPartOfFramework: true
+      IsSystemModule:  true
+      Libraries:       []
+    Flags:           [ IsIosAppExtensionAvailable ]
+    Type:            EnumConstant
+    Value:           '0'
+...
